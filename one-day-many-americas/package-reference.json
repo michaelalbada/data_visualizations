@@ -1,0 +1,32 @@
+{
+  "source": "User supplied personal-website dependency snapshot",
+  "capturedFor": "One Day, Many Americas visualization",
+  "project": {
+    "name": "personal-website",
+    "version": "0.1.1",
+    "engines": {
+      "node": ">=24.15.0 <25"
+    },
+    "dependencies": {
+      "next": "15.5.16",
+      "react": "18.3.1",
+      "react-dom": "18.3.1"
+    },
+    "devDependencies": {
+      "@eslint/eslintrc": "3.3.5",
+      "@types/node": "18.19.130",
+      "@types/react": "18.3.28",
+      "@types/react-dom": "18.3.7",
+      "eslint": "^8.41.0",
+      "eslint-config-next": "15.1.6",
+      "postcss": "8.5.14",
+      "tailwindcss": "3.4.19",
+      "typescript": "5.9.3"
+    }
+  },
+  "implementationNotes": [
+    "No new runtime dependencies were added.",
+    "The visualization is plain React, SVG, TypeScript, and CSS Modules.",
+    "This file records the top-level dependency set only, not the full package-lock dependency tree."
+  ]
+}
