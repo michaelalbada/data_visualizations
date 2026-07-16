@@ -1,0 +1,9 @@
+# JavaScript dependencies
+**/node_modules/
+
+# Next.js build output and caches
+**/.next/
+
+# Local tooling and operating-system metadata
+.DS_Store
+*.tsbuildinfo
