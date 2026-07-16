@@ -1,6 +1,15 @@
 .shell {
+  box-sizing: border-box;
+  width: 100%;
   min-height: 100vh;
+  overflow-x: clip;
   padding: 48px 24px 64px;
+}
+
+.shell *,
+.shell *::before,
+.shell *::after {
+  box-sizing: border-box;
 }
 
 .hero,
@@ -15,6 +24,11 @@
   grid-template-columns: minmax(0, 1fr) 330px;
   gap: 34px;
   align-items: end;
+}
+
+.hero > *,
+.workspace > * {
+  min-width: 0;
 }
 
 .kicker {
@@ -34,6 +48,7 @@
   font-size: clamp(3rem, 7.4vw, 7rem);
   font-weight: 500;
   line-height: 0.9;
+  overflow-wrap: break-word;
 }
 
 .deck {
@@ -97,6 +112,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
   gap: 18px;
+  align-items: flex-start;
   margin-top: 18px;
 }
 
@@ -110,6 +126,7 @@
 
 .chartPanel {
   min-width: 0;
+  overflow: hidden;
   padding: 22px;
 }
 
@@ -257,6 +274,34 @@
   flex-wrap: wrap;
   gap: 10px 14px;
   margin-top: 12px;
+}
+
+.scrubber {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 16px;
+}
+
+.scrubber label {
+  color: #202b37;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.scrubber input {
+  width: 100%;
+  accent-color: #1c2b36;
+  cursor: ew-resize;
+}
+
+.scrubberTimes {
+  display: flex;
+  justify-content: space-between;
+  color: #737a7d;
+  font-size: 0.7rem;
+  font-weight: 750;
 }
 
 .legendItem,
@@ -513,7 +558,8 @@
   }
 
   .title {
-    font-size: clamp(2.55rem, 14vw, 4.3rem);
+    font-size: clamp(2.55rem, 13vw, 3.65rem);
+    line-height: 0.94;
   }
 
   .deck {
@@ -523,6 +569,16 @@
   .chartPanel,
   .sidePanel {
     padding: 14px;
+  }
+
+  .controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .regionButton {
+    width: 100%;
+    padding-inline: 10px;
   }
 
   .chartHeader {

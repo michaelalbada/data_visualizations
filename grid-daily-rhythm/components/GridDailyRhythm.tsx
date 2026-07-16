@@ -131,6 +131,60 @@ const ANNOTATIONS: Record<string, ChartAnnotation[]> = {
       dx: 42,
       dy: -96
     }
+  ],
+  "southeast-summer": [
+    {
+      source: "nuclear",
+      clockMinute: 10 * 60,
+      title: "Steady foundation",
+      note: "Nuclear anchors the supply mix.",
+      dx: 34,
+      dy: -96
+    },
+    {
+      source: "demand",
+      clockMinute: 18 * 60,
+      title: "Cooling peak",
+      note: "Heat keeps demand high into evening.",
+      dx: -196,
+      dy: -112
+    }
+  ],
+  "northwest-spring": [
+    {
+      source: "hydro",
+      clockMinute: 18 * 60,
+      title: "Runoff reserve",
+      note: "Hydro flexes with evening demand.",
+      dx: -198,
+      dy: -104
+    },
+    {
+      source: "wind",
+      clockMinute: 23 * 60,
+      title: "Windy night",
+      note: "Wind strengthens after sunset.",
+      dx: -194,
+      dy: -112
+    }
+  ],
+  "western-states": [
+    {
+      source: "solar",
+      clockMinute: 13 * 60,
+      title: "Regional solar",
+      note: "Sunlight carries the afternoon.",
+      dx: -72,
+      dy: -118
+    },
+    {
+      source: "battery",
+      clockMinute: 20 * 60,
+      title: "Western handoff",
+      note: "Storage bridges sunset and peak.",
+      dx: -210,
+      dy: -96
+    }
   ]
 };
 
@@ -157,7 +211,7 @@ export function GridDailyRhythm() {
     () => layoutAnnotations(ANNOTATIONS[selectedRegion.key] ?? [], layers, timeline, maxGw),
     [layers, maxGw, selectedRegion.key, timeline]
   );
-  const totalEnergy = POWER_SOURCES.reduce((sum, source) => sum + dailyEnergy[source.key], 0);
+  const maxDailyEnergy = Math.max(...POWER_SOURCES.map((source) => dailyEnergy[source.key]));
 
   return (
     <main className={styles.shell}>
@@ -184,6 +238,7 @@ export function GridDailyRhythm() {
       <section className={styles.controls} aria-label="Grid region">
         {GRID_REGIONS.map((region) => (
           <button
+            aria-pressed={region.key === selectedKey}
             className={`${styles.regionButton} ${region.key === selectedKey ? styles.activeRegionButton : ""}`}
             key={region.key}
             onClick={() => setSelectedKey(region.key)}
@@ -324,6 +379,25 @@ export function GridDailyRhythm() {
             />
           </svg>
 
+          <div className={styles.scrubber}>
+            <label htmlFor="grid-time-scrubber">Explore the day</label>
+            <input
+              aria-valuetext={formatClockTime(focusPoint.clockMinute)}
+              id="grid-time-scrubber"
+              max={24 * 60}
+              min="0"
+              onChange={(event) => setFocusMinute(Number(event.currentTarget.value))}
+              step="30"
+              type="range"
+              value={focusMinute}
+            />
+            <div className={styles.scrubberTimes} aria-hidden="true">
+              <span>12 AM</span>
+              <span>12 PM</span>
+              <span>12 AM</span>
+            </div>
+          </div>
+
           <div className={styles.legend} aria-label="Chart legend">
             {POWER_SOURCES.map((source) => (
               <span className={styles.legendItem} key={source.key}>
@@ -375,7 +449,7 @@ export function GridDailyRhythm() {
                       className={styles.energyFill}
                       style={{
                         backgroundColor: source.color,
-                        width: `${dailyEnergy[source.key] / totalEnergy * 100}%`
+                        width: `${dailyEnergy[source.key] / maxDailyEnergy * 100}%`
                       }}
                     />
                   </div>

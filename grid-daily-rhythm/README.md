@@ -5,8 +5,9 @@ demand over a day.
 
 The current interaction includes:
 
-- Region switching across four modeled grid scenarios.
+- Region switching across seven modeled grid scenarios.
 - A hoverable 24-hour stacked supply chart.
+- A touch- and keyboard-friendly time scrubber.
 - Demand and net-load line overlays.
 - An animated grid-flow map for the selected time.
 - Source mix, daily energy, clean share, and carbon proxy readouts.
@@ -26,7 +27,7 @@ It adds no runtime dependencies beyond the project stack you supplied:
 ## Run Locally
 
 ```bash
-cd /Users/malbada/dev/visualizations/grid-daily-rhythm
+cd /Users/malbada/dev/data_visualizations/grid-daily-rhythm
 npm install
 npm run dev
 ```

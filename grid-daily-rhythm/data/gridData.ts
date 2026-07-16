@@ -177,6 +177,75 @@ export const GRID_REGIONS: GridRegion[] = [
       minGas: 7.2,
       windPhase: 3.9
     }
+  },
+  {
+    key: "southeast-summer",
+    label: "Southeast summer day",
+    shortLabel: "Southeast",
+    summary: "Air-conditioning drives a long afternoon peak, with nuclear holding the base and gas following the heat.",
+    profile: {
+      baseDemand: 42,
+      morningPeak: 7,
+      eveningPeak: 19,
+      temperaturePeak: 14,
+      solarStrength: 17,
+      windBase: 3,
+      windStrength: 2.2,
+      nuclearBase: 12,
+      hydroBase: 3,
+      hydroFlex: 0.8,
+      importsBase: 2,
+      importsFlex: 1.2,
+      batteryPower: 1.8,
+      minGas: 11,
+      windPhase: 4.6
+    }
+  },
+  {
+    key: "northwest-spring",
+    label: "Northwest spring day",
+    shortLabel: "Northwest",
+    summary: "Spring runoff makes hydro the flexible backbone while wind and modest solar round out the day.",
+    profile: {
+      baseDemand: 18,
+      morningPeak: 4,
+      eveningPeak: 7,
+      temperaturePeak: 1,
+      solarStrength: 9,
+      windBase: 7,
+      windStrength: 4.5,
+      nuclearBase: 1.2,
+      hydroBase: 11,
+      hydroFlex: 3,
+      importsBase: 0.8,
+      importsFlex: 0.4,
+      batteryPower: 1.2,
+      minGas: 1.8,
+      windPhase: 0.7
+    }
+  },
+  {
+    key: "western-states",
+    label: "Western states summer day",
+    shortLabel: "Western states",
+    summary: "Solar, wind, hydro, and transfers span a wide region before storage and gas cover the evening handoff.",
+    profile: {
+      baseDemand: 30,
+      morningPeak: 5,
+      eveningPeak: 14,
+      temperaturePeak: 9,
+      solarStrength: 20,
+      windBase: 8,
+      windStrength: 4.2,
+      nuclearBase: 3,
+      hydroBase: 6,
+      hydroFlex: 1.8,
+      importsBase: 2,
+      importsFlex: 1.4,
+      batteryPower: 3,
+      minGas: 5,
+      windPhase: 2.8
+    }
   }
 ];
 
