@@ -1,0 +1,548 @@
+.shell {
+  min-height: 100vh;
+  padding: 48px 24px 64px;
+}
+
+.hero,
+.controls,
+.workspace {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 34px;
+  align-items: end;
+}
+
+.kicker {
+  margin: 0 0 10px;
+  color: #2f735c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  max-width: 840px;
+  color: #16202c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 7.4vw, 7rem);
+  font-weight: 500;
+  line-height: 0.9;
+}
+
+.deck {
+  max-width: 760px;
+  margin: 24px 0 0;
+  color: #475260;
+  font-size: 1.08rem;
+  line-height: 1.64;
+}
+
+.sourceBox {
+  border: 1px solid rgba(32, 43, 56, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 250, 0.75);
+  color: #515b66;
+  padding: 18px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.sourceLabel {
+  display: block;
+  margin-bottom: 7px;
+  color: #1f2b37;
+  font-weight: 800;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 34px;
+}
+
+.regionButton {
+  min-height: 40px;
+  appearance: none;
+  border: 1px solid rgba(34, 42, 55, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 250, 0.82);
+  color: #242d39;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 0 16px;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.regionButton:hover {
+  border-color: rgba(34, 42, 55, 0.35);
+}
+
+.activeRegionButton {
+  border-color: #1c2b36;
+  background: #1c2b36;
+  color: #fbfff7;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.chartPanel,
+.sidePanel {
+  border: 1px solid rgba(32, 43, 56, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 250, 0.9);
+  box-shadow: 0 24px 80px rgba(26, 38, 44, 0.08);
+}
+
+.chartPanel {
+  min-width: 0;
+  padding: 22px;
+}
+
+.chartHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 8px;
+}
+
+.chartHeader h2 {
+  margin: 0;
+  color: #1e2834;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+
+.chartHeader p {
+  max-width: 680px;
+  margin: 6px 0 0;
+  color: #5f6873;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.timeBadge {
+  display: flex;
+  min-width: 92px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(32, 43, 56, 0.12);
+  border-radius: 999px;
+  background: #e7efe4;
+  color: #24303c;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 8px;
+  overflow: visible;
+}
+
+.plotBackground {
+  fill: #f9fbf6;
+}
+
+.gridLine {
+  stroke: rgba(32, 43, 56, 0.1);
+  stroke-width: 1;
+}
+
+.xGridLine {
+  stroke: rgba(32, 43, 56, 0.075);
+  stroke-width: 1;
+}
+
+.xTick,
+.yTick {
+  fill: #737a7d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.xTick {
+  text-anchor: middle;
+}
+
+.yTick {
+  text-anchor: end;
+}
+
+.area {
+  opacity: 0.9;
+  stroke: rgba(255, 255, 250, 0.72);
+  stroke-width: 1.2;
+}
+
+.demandLine,
+.netLoadLine {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.demandLine {
+  stroke: #16202c;
+  stroke-width: 3;
+}
+
+.netLoadLine {
+  stroke: #ffffff;
+  stroke-dasharray: 8 8;
+  stroke-width: 2.2;
+}
+
+.focusLine {
+  stroke: #1f2b37;
+  stroke-dasharray: 4 6;
+  stroke-linecap: round;
+  stroke-width: 1.5;
+}
+
+.annotation {
+  pointer-events: none;
+}
+
+.annotationLeader {
+  stroke: rgba(31, 43, 55, 0.46);
+  stroke-width: 1.2;
+}
+
+.annotationDot {
+  fill: #fbfff7;
+  stroke: #1f2b37;
+  stroke-width: 1.7;
+}
+
+.annotationCard {
+  fill: rgba(255, 255, 250, 0.95);
+  stroke: rgba(32, 43, 56, 0.18);
+  stroke-width: 1;
+}
+
+.annotationTitle {
+  fill: #1f2b37;
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.annotationNote {
+  fill: #5b6570;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 12px;
+}
+
+.legendItem,
+.lineLegend,
+.netLegend {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #414c57;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.swatch,
+.sourceSwatch {
+  display: inline-block;
+  border-radius: 999px;
+}
+
+.swatch {
+  width: 12px;
+  height: 12px;
+}
+
+.lineLegend::before,
+.netLegend::before {
+  display: inline-block;
+  width: 24px;
+  height: 0;
+  border-top: 3px solid #16202c;
+  border-radius: 999px;
+  content: "";
+}
+
+.netLegend::before {
+  border-top-color: #7b858a;
+  border-top-style: dashed;
+}
+
+.sidePanel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 18px;
+}
+
+.mapPanel {
+  min-width: 0;
+}
+
+.mapHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #59646e;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.panelLabel {
+  display: block;
+  margin-bottom: 12px;
+  color: #202b37;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gridMap {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 4px;
+}
+
+.mapBackground {
+  fill: #f7fbf4;
+  stroke: rgba(32, 43, 56, 0.1);
+}
+
+.flowLine {
+  fill: none;
+  opacity: 0.72;
+  stroke-dasharray: 10 12;
+  stroke-linecap: round;
+  animation: flow 1.25s linear infinite;
+}
+
+.loadHalo {
+  fill: rgba(28, 43, 54, 0.08);
+}
+
+.loadNode {
+  fill: #1c2b36;
+  stroke: #fbfff7;
+  stroke-width: 3;
+}
+
+.loadLabel,
+.loadValue {
+  fill: #fbfff7;
+  font-weight: 850;
+  text-anchor: middle;
+}
+
+.loadLabel {
+  font-size: 14px;
+}
+
+.loadValue {
+  font-size: 13px;
+}
+
+.sourceNode {
+  opacity: 0.96;
+  stroke: #fbfff7;
+  stroke-width: 2.5;
+}
+
+.nodeLabel {
+  fill: #2b3540;
+  font-size: 13px;
+  font-weight: 800;
+  text-anchor: middle;
+}
+
+.metricGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.metric {
+  display: grid;
+  gap: 5px;
+  border: 1px solid rgba(32, 43, 56, 0.12);
+  border-radius: 8px;
+  background: #f7fbf4;
+  padding: 11px;
+}
+
+.metric span {
+  color: #5d6772;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.metric strong {
+  color: #1f2b37;
+  font-size: 1.08rem;
+  font-weight: 850;
+}
+
+.statBlock {
+  min-width: 0;
+}
+
+.sourceRows,
+.energyRows {
+  display: grid;
+  gap: 9px;
+}
+
+.sourceRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #27313c;
+  font-size: 0.9rem;
+  font-weight: 760;
+}
+
+.sourceName {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.sourceSwatch {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 auto;
+}
+
+.energyRow {
+  display: grid;
+  gap: 5px;
+}
+
+.energyLabel {
+  display: flex;
+  justify-content: space-between;
+  color: #424c57;
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.energyTrack {
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(32, 43, 56, 0.08);
+}
+
+.energyFill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+@keyframes flow {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -44;
+  }
+}
+
+@media (max-width: 1020px) {
+  .hero,
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .sourceBox {
+    max-width: 700px;
+  }
+
+  .sidePanel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+    align-items: flex-start;
+  }
+
+  .metricGrid,
+  .statBlock {
+    grid-column: 2;
+  }
+
+  .mapPanel {
+    grid-row: span 3;
+  }
+}
+
+@media (max-width: 720px) {
+  .shell {
+    padding: 28px 14px 42px;
+  }
+
+  .title {
+    font-size: clamp(2.55rem, 14vw, 4.3rem);
+  }
+
+  .deck {
+    font-size: 1rem;
+  }
+
+  .chartPanel,
+  .sidePanel {
+    padding: 14px;
+  }
+
+  .chartHeader {
+    display: grid;
+  }
+
+  .timeBadge {
+    justify-self: start;
+  }
+
+  .sidePanel {
+    display: flex;
+  }
+
+  .metricGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xTick,
+  .yTick {
+    font-size: 12px;
+  }
+}
