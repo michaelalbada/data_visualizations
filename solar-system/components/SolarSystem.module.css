@@ -1,0 +1,166 @@
+.shell {
+  --ink: #f4efdf;
+  --muted: #91a19c;
+  --line: rgba(210, 228, 220, 0.17);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: clip;
+  padding: 46px 24px 72px;
+  color: #f5f0df;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 78% 8%, rgba(28, 69, 62, 0.37), transparent 25%),
+    linear-gradient(180deg, #081211 0%, #050b0b 100%);
+}
+
+.shell *, .shell *::before, .shell *::after { box-sizing: border-box; }
+.hero, .factBand, .introduction, .workspace, .rhythms, .dataNote { max-width: 1280px; margin-inline: auto; }
+.hero > *, .introduction > *, .workspace > *, .rhythms > *, .dataNote > * { min-width: 0; }
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(290px, 0.65fr);
+  gap: 60px;
+  align-items: end;
+  min-height: 350px;
+  padding: 30px 0 46px;
+  border-top: 1px solid var(--line);
+}
+
+.kicker, .eyebrow { margin: 0; color: #a1bbb2; font-size: 0.73rem; font-weight: 850; letter-spacing: 0.15em; text-transform: uppercase; }
+.hero h1 { margin: 18px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.4rem, 6vw, 5.8rem); font-weight: 400; letter-spacing: -0.065em; line-height: 0.86; }
+.heroCopy { padding-bottom: 22px; }
+.heroCopy > p { margin: 0; color: #b4c1bd; font-family: Georgia, "Times New Roman", serif; font-size: 1.27rem; line-height: 1.65; }
+.heroRule { display: flex; gap: 16px; align-items: center; margin-top: 34px; color: #d8e3de; font-size: 0.69rem; font-weight: 850; letter-spacing: 0.13em; text-transform: uppercase; }
+.heroRule i { position: relative; display: block; flex: 1; height: 1px; background: var(--line); }
+.heroRule i::after { position: absolute; right: 0; top: -3px; width: 7px; height: 7px; border-radius: 50%; background: #e5b34e; content: ""; }
+
+.factBand { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 68px; border-block: 1px solid var(--line); }
+.factBand div { display: flex; min-height: 94px; flex-direction: column; justify-content: center; border-right: 1px solid var(--line); padding: 12px 24px; }
+.factBand div:last-child { border-right: 0; }
+.factBand strong { color: #f4c969; font-family: Georgia, "Times New Roman", serif; font-size: 1.72rem; font-weight: 400; }
+.factBand span { margin-top: 3px; color: #7f918b; font-size: 0.69rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.introduction { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr); gap: 52px; align-items: end; padding: 78px 0 34px; }
+.introduction h2, .rhythmIntro h2 { margin: 11px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.6rem, 5.4vw, 5.3rem); font-weight: 400; letter-spacing: -0.055em; line-height: 0.93; }
+.introduction > p { margin: 0 0 4px; color: #91a09b; font-size: 0.96rem; line-height: 1.72; }
+
+.workspace { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 14px; align-items: stretch; }
+.orbitCard, .inspector { border: 1px solid var(--line); background: rgba(9, 19, 18, 0.76); box-shadow: 0 32px 100px rgba(0, 0, 0, 0.25); }
+.orbitCard { min-width: 0; overflow: hidden; }
+.chartIntro { display:grid; grid-template-columns:minmax(0,.9fr) minmax(270px,.65fr); gap:38px; align-items:end; padding:20px; border-bottom:1px solid var(--line); }
+.chartIntro h2 { margin:7px 0 0; font-family:Georgia,"Times New Roman",serif; font-size:clamp(1.75rem,2.8vw,2.7rem); font-weight:400; letter-spacing:-.04em; line-height:.98; }
+.chartIntro > p { margin:0; color:#91a09b; font-size:.78rem; line-height:1.62; }
+.chartHeader { display: flex; min-height: 91px; align-items: center; justify-content: space-between; gap: 24px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.chartHeader > div:first-child span { display: block; margin-bottom: 4px; color: #81928c; font-size: 0.65rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.chartHeader > div:first-child strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.38rem; font-weight: 400; }
+.viewControls { display: flex; gap: 22px; }
+.controlGroup > span { display: block; margin-bottom: 6px; color: #71847d; font-size: 0.58rem; font-weight: 850; letter-spacing: 0.1em; text-transform: uppercase; }
+.controlGroup > div { display: flex; }
+.controlGroup button { min-height: 28px; appearance: none; border: 1px solid var(--line); background: transparent; color: #80918b; cursor: pointer; font: inherit; font-size: 0.63rem; font-weight: 750; padding: 0 9px; }
+.controlGroup button + button { border-left: 0; }
+.controlGroup .activeControl { background: #dae5df; color: #0a1412; }
+
+.orbitViewport { width: 100%; overflow: hidden; }
+.orbitChart { display: block; width: 100%; height: auto; }
+.space { fill: #060d0d; }
+.orbit { fill: none; opacity: 0.25; stroke-dasharray: 2.2 4.5; stroke-width: 1; transition: rx 650ms ease, ry 650ms ease, cx 650ms ease, cy 650ms ease, opacity 180ms ease; }
+.selectedOrbit { opacity: 0.83; stroke-dasharray: none; stroke-width: 1.6; }
+.sunHalo { fill: rgba(242, 171, 50, 0.08); stroke: rgba(255, 204, 95, 0.18); }
+.sunLabel { fill: rgba(255, 222, 140, 0.7); font-size: 9px; font-weight: 850; letter-spacing: 0.16em; text-anchor: middle; }
+.planetGroup { transition: transform 75ms linear; }
+.planetHit { cursor: pointer; outline: none; transition: r 500ms ease, stroke-width 160ms ease; }
+.planetHit:focus { stroke: #fff; stroke-width: 4; }
+.selectedPlanet { filter: drop-shadow(0 0 7px rgba(255, 255, 255, 0.45)); }
+.planetLabel { fill: #82938d; font-size: 9px; font-weight: 750; paint-order: stroke; pointer-events: none; stroke: #060d0d; stroke-width: 4px; }
+.selectedLabel { fill: #f6f2e6; font-size: 11px; font-weight: 900; }
+.saturnRing { fill: none; stroke: rgba(245, 223, 156, 0.72); stroke-width: 2.2; pointer-events: none; }
+
+.transport { display: grid; grid-template-columns: 102px minmax(0, 1fr) auto; gap: 17px; align-items: center; min-height: 84px; padding: 13px 18px; border-top: 1px solid var(--line); }
+.playButton { min-height: 42px; appearance: none; border: 0; background: #f0c45f; color: #0b1311; cursor: pointer; font: inherit; font-size: 0.73rem; font-weight: 900; }
+.playButton span { margin-right: 8px; }
+.transport label { min-width: 0; }
+.transport input { display: block; width: 100%; accent-color: #f0c45f; cursor: pointer; }
+.yearLabels { display: flex; justify-content: space-between; margin-top: 5px; }
+.yearLabels i { color: #667b73; font-size: 0.53rem; font-style: normal; font-weight: 700; }
+.speedControl { display: flex; align-items: center; }
+.speedControl > span { margin-right: 8px; color: #657970; font-size: 0.57rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.speedControl button { width: 31px; min-height: 29px; appearance: none; border: 1px solid var(--line); background: transparent; color: #7f918b; cursor: pointer; font: inherit; font-size: 0.59rem; font-weight: 800; }
+.speedControl button + button { border-left: 0; }
+.speedControl .activeSpeed { background: #dce8e2; color: #08110f; }
+
+.inspector { display: flex; flex-direction: column; min-width: 0; padding: 20px; }
+.planetIndex { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); }
+.planetIndex button { display: grid; grid-template-columns: 19px 8px 1fr; gap: 7px; align-items: center; min-height: 34px; appearance: none; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: transparent; color: #7e9089; cursor: pointer; font: inherit; font-size: 0.66rem; font-weight: 750; text-align: left; }
+.planetIndex button:nth-child(2n) { border-right: 0; }
+.planetIndex button:nth-last-child(-n + 2) { border-bottom: 0; }
+.planetIndex button[aria-current="true"] { background: rgba(220, 232, 226, 0.1); color: #f3efe2; }
+.planetIndex button span { color: #53665f; font-size: 0.53rem; }
+.planetIndex button i { width: 7px; height: 7px; border-radius: 50%; }
+.planetTitle { margin-top: 31px; }
+.planetTitle p { margin: 0 0 4px; color: #8ba098; font-size: 0.65rem; font-weight: 850; letter-spacing: 0.12em; text-transform: uppercase; }
+.planetTitle h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 3.1rem; font-weight: 400; letter-spacing: -0.05em; }
+.inspector blockquote { margin: 17px 0 9px; color: #aab8b3; font-family: Georgia, "Times New Roman", serif; font-size: 1rem; line-height: 1.55; }
+.inspector dl { margin: auto 0 0; }
+.inspector dl div { display: flex; justify-content: space-between; gap: 14px; padding: 11px 0; border-top: 1px solid var(--line); }
+.inspector dt { color: #70837c; font-size: 0.63rem; font-weight: 800; }
+.inspector dd { margin: 0; color: #e9e7da; font-family: Georgia, "Times New Roman", serif; font-size: 0.85rem; text-align: right; }
+
+.rhythms { display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 70px; padding: 100px 0 82px; }
+.rhythmIntro h2 { font-size: clamp(2.4rem, 4.6vw, 4.8rem); }
+.rhythmIntro > p:last-child { max-width: 460px; margin: 24px 0 0; color: #7e9089; line-height: 1.65; }
+.yearRows { border-top: 1px solid var(--line); }
+.yearRows button { display: grid; grid-template-columns: 90px minmax(120px, 1fr) 78px; gap: 17px; align-items: center; width: 100%; min-height: 55px; appearance: none; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: #c3cdc8; cursor: pointer; font: inherit; text-align: left; }
+.yearRows button:hover { background: rgba(255, 255, 255, 0.025); }
+.yearRows button > span { font-size: 0.71rem; font-weight: 800; }
+.yearRows button > i { height: 3px; background: rgba(255, 255, 255, 0.07); }
+.yearRows button b { display: block; max-width: 100%; height: 100%; }
+.yearRows button strong { color: #71847c; font-size: 0.66rem; text-align: right; }
+
+.dataNote { display: grid; grid-template-columns: 170px minmax(0, 800px); gap: 28px; padding: 22px 0; border-top: 1px solid var(--line); color: #6f817a; font-size: 0.72rem; line-height: 1.6; }
+.dataNote strong { color: #a4b5af; font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.dataNote p { margin: 0; }
+.dataNote code { color: #aebdb7; }
+.sourceLinks { display: flex; flex-wrap: wrap; gap: 7px 16px; margin-top: 8px !important; }
+.sourceLinks a { color: #e0bd6b; font-weight: 800; text-underline-offset: 3px; }
+.sourceLinks a:hover { color: #f6e2ac; }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+
+@media (max-width: 1040px) {
+  .hero { min-height: 350px; }
+  .workspace { grid-template-columns: 1fr; }
+  .inspector { min-height: 550px; }
+  .inspector dl { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; margin-top: 26px; }
+}
+
+@media (max-width: 760px) {
+  .shell { padding: 25px 13px 48px; }
+  .hero, .introduction, .rhythms { grid-template-columns: 1fr; gap: 28px; }
+  .hero { min-height: auto; padding: 24px 0 46px; }
+  .hero h1 { font-size: clamp(2.9rem, 13vw, 4.1rem); }
+  .factBand { grid-template-columns: 1fr 1fr; }
+  .factBand div { min-height: 76px; border-bottom: 1px solid var(--line); }
+  .factBand div:nth-child(2n) { border-right: 0; }
+  .factBand div:nth-last-child(-n + 2) { border-bottom: 0; }
+  .chartIntro { grid-template-columns: 1fr; gap: 13px; padding: 16px 13px; }
+  .introduction { padding-top: 52px; }
+  .introduction h2 { overflow-wrap: anywhere; }
+  .chartHeader { align-items: flex-start; flex-direction: column; }
+  .viewControls { width: 100%; justify-content: space-between; }
+  .orbitViewport { overflow-x: auto; overscroll-behavior-inline: contain; }
+  .orbitChart { width: 760px; max-width: none; }
+  .transport { grid-template-columns: 1fr; }
+  .playButton { width: 100%; }
+  .speedControl { justify-content: flex-end; }
+  .inspector { min-height: 660px; }
+  .inspector dl { grid-template-columns: 1fr; }
+  .rhythms { padding: 72px 0 60px; }
+  .yearRows button { grid-template-columns: 75px minmax(80px, 1fr) 68px; gap: 10px; }
+  .dataNote { grid-template-columns: 1fr; gap: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .planetGroup, .orbit, .planetHit { transition: none; }
+}

@@ -1,0 +1,4 @@
+html { background: #0b1110; }
+body { margin: 0; }
+button, input { font-family: inherit; }
+::selection { background: #e9bd57; color: #101715; }

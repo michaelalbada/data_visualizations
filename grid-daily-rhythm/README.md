@@ -5,7 +5,7 @@ demand over a day.
 
 The current interaction includes:
 
-- Region switching across seven modeled grid scenarios.
+- Region switching across seven observed balancing-authority days.
 - A hoverable 24-hour stacked supply chart.
 - A touch- and keyboard-friendly time scrubber.
 - Demand and net-load line overlays.
@@ -56,10 +56,9 @@ Adjust the import path if your site does not use `@/`.
 
 ## Data
 
-This version uses modeled grid profiles inspired by public electricity data.
-It is meant to settle the visual design before doing a real data extract. See
-`DATA_NOTES.md`.
+This version uses hourly demand, interchange, and generation-by-fuel observations
+from the official EIA-930 flat file. See `DATA_NOTES.md`.
 
-Official source for the eventual extract:
+Official source:
 
-- https://www.eia.gov/opendata/
+- https://www.eia.gov/electricity/gridmonitor/

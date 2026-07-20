@@ -1,0 +1,5276 @@
+{
+  "source": {
+    "title": "UN Comtrade annual merchandise exports",
+    "publisher": "United Nations Statistics Division",
+    "url": "https://comtradeplus.un.org/",
+    "api": "https://comtradeapi.un.org/public/v1/preview/C/A/HS",
+    "classification": "Harmonized System, two-digit chapters grouped into ten families",
+    "unit": "current US dollars",
+    "retrieved": "2026-07-20",
+    "note": "Reporter-recorded exports from the eight largest merchandise exporters in the 2023 comparison. Named destinations are the eight largest import markets in that comparison; all remaining destinations are retained as Rest of world."
+  },
+  "exporters": [
+    {
+      "id": "china",
+      "label": "China"
+    },
+    {
+      "id": "united-states",
+      "label": "United States"
+    },
+    {
+      "id": "germany",
+      "label": "Germany"
+    },
+    {
+      "id": "japan",
+      "label": "Japan"
+    },
+    {
+      "id": "netherlands",
+      "label": "Netherlands"
+    },
+    {
+      "id": "italy",
+      "label": "Italy"
+    },
+    {
+      "id": "france",
+      "label": "France"
+    },
+    {
+      "id": "south-korea",
+      "label": "South Korea"
+    }
+  ],
+  "commodities": [
+    {
+      "id": "food",
+      "label": "Food & agriculture"
+    },
+    {
+      "id": "energy",
+      "label": "Energy & minerals"
+    },
+    {
+      "id": "chemicals",
+      "label": "Chemicals"
+    },
+    {
+      "id": "plastics",
+      "label": "Plastics & rubber"
+    },
+    {
+      "id": "textiles",
+      "label": "Textiles & apparel"
+    },
+    {
+      "id": "wood-paper",
+      "label": "Wood & paper"
+    },
+    {
+      "id": "metals",
+      "label": "Metals, stone & precious goods"
+    },
+    {
+      "id": "machinery",
+      "label": "Machinery & electronics"
+    },
+    {
+      "id": "transport",
+      "label": "Transport equipment"
+    },
+    {
+      "id": "other",
+      "label": "Other manufactured goods"
+    }
+  ],
+  "importers": [
+    {
+      "id": "united-states",
+      "label": "United States"
+    },
+    {
+      "id": "china",
+      "label": "China"
+    },
+    {
+      "id": "germany",
+      "label": "Germany"
+    },
+    {
+      "id": "france",
+      "label": "France"
+    },
+    {
+      "id": "united-kingdom",
+      "label": "United Kingdom"
+    },
+    {
+      "id": "japan",
+      "label": "Japan"
+    },
+    {
+      "id": "india",
+      "label": "India"
+    },
+    {
+      "id": "hong-kong",
+      "label": "Hong Kong SAR"
+    },
+    {
+      "id": "rest-of-world",
+      "label": "Rest of world"
+    }
+  ],
+  "years": [
+    {
+      "year": 2000,
+      "total": 2979604058892,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 14849198694
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 9200739537
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 11639009930
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 7948910312
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 68842315926
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 4531760595
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 23175433905
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 72884732056
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 9267563431
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 26862886629
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 55677326828
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 16241657202
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 66446334389
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 34976337262
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 26368502568
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 27094553089
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 53215244269
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 307785460520
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 106104832559
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 87920424157
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 23960555000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 8888964000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 53048831000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 29480514000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 21739972000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 18984159000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 49901205000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 164309838000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 107866039000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 71426664000
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 2334060393
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 1867418613
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 29540673775
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 17320812127
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 8591825131
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 3209093984
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 33706536444
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 222322625534
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 101495594834
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 58886899247
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 31823052997
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 18386366461
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 19317801045
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 9236488794
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 6380096401
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 5118532496
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 11194841918
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 54717841980
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 10712295796
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 46537085643
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 15381998163
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 5452095179
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 17002999333
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 11536977102
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 38190588027
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 6747133453
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 32928724109
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 65842717351
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 27005355538
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 18562647315
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 34017848657
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 9026137932
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 38602211165
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 14851321837
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 15282245290
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 9944473861
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 26603362477
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 76965746486
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 56277249681
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 13774822086
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 2934720899
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 9577638398
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 7490174478
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 9282548106
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 21197632056
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 2296077286
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 14938198905
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 76098005039
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 24459843618
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 3992656594
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 7478229603
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 2268573110
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 18499483810
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 9314806868
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 11328216542
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 21718012646
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 291847426
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 4115336408
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 105964255219
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 4119545430
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 2321178310
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 10654035664
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 3075823713
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 2737350296
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 7310626633
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 630364302
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 2439754373
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 45352338601
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 20438298220
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 7784363775
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 15400229038
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 12201672878
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 15140436307
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 11919446632
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 2016598869
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 4254454992
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 153932534405
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 9623659610
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 5142856050
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 9262779140
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 7358173040
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 7207041189
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 3675561450
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 530840081
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 5325999874
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 86506999105
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 22834873045
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 7687146603
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 12166225367
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 7546479847
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 7670845971
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 21066181546
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 726976090
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 19094689870
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 107799759059
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 3819296305
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 2233300635
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 5145849603
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 4915685600
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 5445167577
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 4690443006
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 307685901
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 2580513433
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 48787841704
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 23167062329
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 8604247904
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 16643277787
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 12448389233
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 13199171495
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 9027056138
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 1442269868
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 10122878380
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 151009193893
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 134087894154
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 32774994605
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 58299107644
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 44117039642
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 63452479214
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 42525116197
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 5097698153
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 44318687622
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 616253949734
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 79841668258
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 4732653809
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 24856726164
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 25151669470
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 30887385739
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 11951945956
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 940223127
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 3580316985
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 261246184950
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 41600976841
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 5871350720
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 16887078182
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 17102064097
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 19588105862
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 15794796248
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 1071143372
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 10712954580
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 199335615769
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "total": 4673833836143,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 26462928217
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 20920147682
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 31852644597
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 23285505702
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 146034925768
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 12683303281
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 74875222953
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 322008126916
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 28409984868
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 75420619547
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 64130537580
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 31832791900
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 98119277462
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 46766081941
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 26918037203
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 28982280321
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 73139859910
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 279850418991
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 151422465801
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 99879660147
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 46125637000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 23223970000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 104226542000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 54881940000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 32055926000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 33078433000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 95503372000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 295864918000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 195344522000
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 96826712000
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 3140609640
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 5028246562
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 42111112142
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 26016873459
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 8501017265
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 3716737940
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 55138841494
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 241764700387
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 139763367773
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 69759359122
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 52523876333
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 39715797865
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 42970577904
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 18899983877
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 10721674374
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 7327323743
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 21632113861
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 88049331544
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 15383343413
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 52588999743
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 26025100042
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 13785291254
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 30036119739
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 19155225000
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 50835470497
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 9750131578
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 53764109471
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 102088996751
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 38033896871
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 26706401432
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 48879549532
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 19060796030
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 63678423886
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 23409863190
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 20759289986
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 13016411463
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 41905017977
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 94344699226
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 86763842196
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 22536351620
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 3357753162
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 16030543665
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 15037973555
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 17956932106
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 15409314056
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 2514005185
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 25922302992
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 119051268387
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 55141554750
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 13996519316
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 12502904761
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 4948889284
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 27336255283
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 14393132018
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 19047071155
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 21736760423
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 403130811
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 4549408219
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 165728439552
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 11560960363
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 5528023091
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 18393977257
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 6923334469
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 6497724727
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 8604576163
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 1406432471
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 2587877292
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 108094679125
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 33202811252
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 20827589238
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 25854724623
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 20900229327
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 24293386752
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 17780733847
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 4806231598
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 6128341576
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 274238623071
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 17075757407
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 13897974521
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 15219831392
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 12098315039
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 11223929134
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 6018659475
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 1608011613
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 8505621919
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 144724304776
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 38092184873
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 11106822617
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 15890181396
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 12314240176
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 11455832101
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 25469507735
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 2063824972
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 23885724676
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 170957336603
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 7439297512
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 4153033693
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 6564202617
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 7557745503
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 7389746904
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 4660873043
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 659094937
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 2749656520
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 69894975780
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 35835222028
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 27573927517
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 26848971273
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 21114047304
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 19313403183
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 15612597076
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 5015930372
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 15526593195
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 275040148711
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 184346933490
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 95832211457
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 84739662105
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 58395579401
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 70173528162
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 54961620933
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 14084549003
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 109128512432
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 871359863219
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 106747591393
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 18366938915
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 39029021965
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 42973209482
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 49322644384
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 15705017179
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 2875851610
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 6460031662
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 428782671082
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 55715335684
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 22976501991
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 22076718708
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 20018837926
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 23732598450
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 23322226778
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 2519692689
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 25936509058
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 261416201642
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "total": 6810897243373,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 47626217414
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 30375267248
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 74972156055
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 49592545863
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 266690223090
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 23593419525
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 150566765853
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 698568681276
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 88874751412
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 146903723152
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 116204076738
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 89515479781
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 149367892461
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 65746444742
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 29416022934
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 37542032132
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 128530191578
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 334679565253
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 183898482318
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 143198999454
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 72865392141
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 29639602015
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 154925006260
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 68576820988
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 40346327997
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 39879055081
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 133626330249
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 356274237337
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 246360439360
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 125249897452
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 5077201678
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 13921089723
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 56915361769
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 42107262467
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 9091054424
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 5533527468
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 92357979339
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 281377970691
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 176091041320
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 87301343596
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 77754949559
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 68997303125
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 73438386174
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 24132866574
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 14792388666
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 8937876598
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 34275903747
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 114701573674
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 17234481674
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 58380141832
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 36675596196
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 21963941230
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 39157173516
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 22861180384
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 52316203961
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 11309670262
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 67342001542
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 116855159992
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 43890962318
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 34467940311
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 64741266228
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 20148564189
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 85381357611
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 27369303083
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 23188102778
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 13596358594
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 50194354662
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 102289905404
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 97616497890
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 27125332304
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 5510285403
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 33118145429
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 27383182861
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 30527919075
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 15243921359
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 3281828199
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 46024403707
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 162820007927
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 102105451280
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 40365474420
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 16849275615
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 18790439790
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 38552649756
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 20322035710
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 24077297352
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 27241245379
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 1196817752
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 10107793785
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 269317430218
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 11800178756
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 13348639484
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 23395931192
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 9494963433
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 9668265668
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 9216294082
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 2743326758
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 8123026754
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 219888766613
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 46102587314
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 40358043508
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 48143476257
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 28892086540
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 30934995619
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 27508975743
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 14913001491
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 7108408892
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 417578941342
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 22338878481
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 29564291728
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 19514556184
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 14325718612
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 12470119737
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 8685232667
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 4941928805
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 10562634265
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 208510982698
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 57647871552
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 13579032594
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 24484479533
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 17904941110
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 16571380858
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 31008050925
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 4493907049
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 24591316240
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 260803265347
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 8349556970
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 8790714809
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 7579009473
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 8646114410
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 8005638393
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 5220983523
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 1779565722
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 2806114848
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 92496069711
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 44556499871
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 46787123243
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 39456217258
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 27571537617
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 31566109180
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 19555664826
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 17607484908
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 28747859919
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 447069433853
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 240455212719
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 178706796902
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 106255190765
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 70795191882
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 69028788032
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 72629741026
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 40855246105
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 188350414880
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 1200490519243
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 100861867983
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 57142655203
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 58081501886
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 51784297881
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 48839442215
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 16283680821
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 7587610019
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 18864929698
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 596626121866
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 70947913184
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 55745077517
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 31635990708
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 25413464965
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 26678383753
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 27322279085
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 7256745871
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 32784066465
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 385208930973
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "total": 7671067907170,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 68166219194
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 31718897796
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 106194494818
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 86030388894
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 376642578880
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 38599933000
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 262121052271
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 958601552370
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 107214625084
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 238178481806
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 138301401190
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 113595763968
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 161851397983
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 73931685663
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 32263873026
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 38240576545
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 138155430024
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 376056192318
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 266340826416
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 163108716706
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 78902051889
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 32364435750
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 167720059534
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 69441571974
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 40550219547
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 33136181276
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 124197593532
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 354125643213
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 295133722724
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 132928769090
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 5396125371
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 12285355832
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 46938576780
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 32786443088
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 8250891287
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 3892985121
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 70179711245
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 213248584608
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 151516384219
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 80378450563
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 86432259070
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 65290288734
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 65919389913
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 26232756525
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 17900722833
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 8528697481
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 32063018393
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 105288625953
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 24271543292
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 32769914279
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 40791595311
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 15883545891
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 44344740025
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 23260642936
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 55677799669
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 10211679936
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 64558900613
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 119698236436
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 47575575993
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 34985908703
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 65984343031
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 15801832213
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 79491773815
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 25988364103
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 25469449235
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 11213747322
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 45756542006
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 96389495652
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 100334340759
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 27511326090
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 7068689790
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 33766747659
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 34491822441
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 35057748699
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 15920924718
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 3190738840
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 49921006980
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 200474060789
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 110103813664
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 36757452781
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 21249788366
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 27288739206
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 41274626483
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 20077574439
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 27351586781
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 27281957518
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 1813724346
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 16749821173
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 307954866535
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 8383127942
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 10930866404
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 23993008535
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 9308807202
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 8261943968
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 8063251612
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 2810697987
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 9748486858
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 239206677335
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 54178802524
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 46971088741
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 40583956137
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 28587664609
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 36500367414
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 26621466310
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 18654787352
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 7590671839
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 447263450383
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 32594149502
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 27931162902
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 20306519794
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 13599654778
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 14090976147
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 9252204957
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 6592937346
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 10239606278
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 238122390177
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 81093432987
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 12453940649
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 26267514316
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 18739762767
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 27259346526
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 30853318396
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 6485177262
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 25019529686
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 344504436606
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 11815992506
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 9279666989
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 7151079212
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 6829325634
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 8661294603
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 5308865816
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 2210465649
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 3092387727
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 92665461384
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 64998163930
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 36306691976
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 38462211071
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 26059282587
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 31360736410
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 20498262714
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 22551229668
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 49147219832
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 497569456876
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 306669841501
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 178141575865
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 97459429527
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 59975560972
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 75981991526
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 82286780683
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 42181602064
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 269139655346
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 1312045953854
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 150516453230
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 74734969540
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 55844697623
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 55035017850
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 69562988222
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 21385852826
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 6814427223
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 18588110237
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 650008315399
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 97643438005
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 58771641887
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 34583430471
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 26117403216
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 33839161449
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 27933637367
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 9937810401
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 44350206399
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 413442290824
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "total": 8098967092527,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 74526460305
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 36487506094
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 137427947438
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 118908959531
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 360202958768
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 39712199952
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 250711684795
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 1149953623805
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 110208796601
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 310958216009
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 149356318886
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 163824114090
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 166411320033
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 71380932342
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 27042108055
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 32759688165
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 126408092190
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 345469909883
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 190785042405
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 156816097440
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 86285939856
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 28785964174
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 200838781150
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 73512425983
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 50076485297
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 34447400966
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 134953066725
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 390722088141
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 250330003896
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 135900103644
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 7986342420
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 8436454223
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 61335102074
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 34085298161
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 7072114267
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 3678662501
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 69807357772
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 224281133520
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 137096012641
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 87504090778
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 104705544300
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 53207535349
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 84775657573
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 27863978457
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 23460351941
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 10077571093
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 34020010635
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 137506455112
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 28911771699
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 46823916122
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 53245824260
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 11251595654
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 65122763099
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 25129689419
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 54980692194
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 10109309531
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 71523634121
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 122358398478
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 48910365217
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 36171559998
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 71289873823
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 11967774419
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 91972467717
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 25255402680
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 29399837727
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 10832203488
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 46786677965
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 94637059163
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 80379303332
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 27383775458
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 8904896118
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 26277807356
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 47621852067
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 38008312926
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 12021682805
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 3059696678
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 50324803907
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 227499331073
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 75196497954
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 23504406642
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 24639400707
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 38484040681
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 47016440477
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 23035470204
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 28335858543
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 28533190710
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 2204108897
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 15525766417
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 348526923332
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 7555050306
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 20501067863
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 18244968236
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 8526974270
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 10897488817
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 13301248009
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 8509989410
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 7122207090
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 245579757358
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 76887485019
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 66123421235
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 54224134255
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 32926527843
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 32860340139
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 28975954014
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 22791865364
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 9906459129
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 530809704153
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 39919112464
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 33369926093
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 21632333075
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 14138608928
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 14695451927
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 10377824017
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 7487381863
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 5985060804
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 266539300328
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 76509871583
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 12643353348
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 29651996316
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 23030292523
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 25635974486
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 29308509111
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 5387459585
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 12708573964
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 349380200138
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 11325603820
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 8590926675
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 7289583175
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 7231407247
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 7326351926
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 4835829111
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 1910160026
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 2210968006
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 93955902388
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 60229374742
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 40621944645
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 41128750479
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 25747778914
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 42909952622
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 21813918259
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 19094181535
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 30478568796
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 502510858120
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 342887401650
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 216073039375
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 114392238716
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 65781455727
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 75193559478
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 85789304670
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 50354309943
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 248931489186
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 1493025200433
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 122942841266
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 64616632161
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 53750695624
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 43354429906
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 47481486166
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 18894090637
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 9309028255
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 12780945866
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 548687643864
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 117446729535
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 59221966003
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 41186832497
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 28351490957
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 36007698209
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 30236972726
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 10783093979
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 32467293558
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 469360088627
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "total": 10528276969714,
+      "exporterCommodity": [
+        {
+          "exporter": "china",
+          "commodity": "food",
+          "value": 96751629862
+        },
+        {
+          "exporter": "china",
+          "commodity": "energy",
+          "value": 68270479599
+        },
+        {
+          "exporter": "china",
+          "commodity": "chemicals",
+          "value": 196801757610
+        },
+        {
+          "exporter": "china",
+          "commodity": "plastics",
+          "value": 165100430180
+        },
+        {
+          "exporter": "china",
+          "commodity": "textiles",
+          "value": 403841170145
+        },
+        {
+          "exporter": "china",
+          "commodity": "wood-paper",
+          "value": 50664606754
+        },
+        {
+          "exporter": "china",
+          "commodity": "metals",
+          "value": 363823137633
+        },
+        {
+          "exporter": "china",
+          "commodity": "machinery",
+          "value": 1407039373219
+        },
+        {
+          "exporter": "china",
+          "commodity": "transport",
+          "value": 242917815998
+        },
+        {
+          "exporter": "china",
+          "commodity": "other",
+          "value": 384537433884
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "food",
+          "value": 175042437863
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "energy",
+          "value": 334435060533
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "chemicals",
+          "value": 240425342643
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "plastics",
+          "value": 92442931666
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "textiles",
+          "value": 31918971026
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "wood-paper",
+          "value": 37380648427
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "metals",
+          "value": 176327284949
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "machinery",
+          "value": 433664647159
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "transport",
+          "value": 284519223248
+        },
+        {
+          "exporter": "united-states",
+          "commodity": "other",
+          "value": 212386036257
+        },
+        {
+          "exporter": "germany",
+          "commodity": "food",
+          "value": 108127761335
+        },
+        {
+          "exporter": "germany",
+          "commodity": "energy",
+          "value": 39860871149
+        },
+        {
+          "exporter": "germany",
+          "commodity": "chemicals",
+          "value": 245606647679
+        },
+        {
+          "exporter": "germany",
+          "commodity": "plastics",
+          "value": 85906875324
+        },
+        {
+          "exporter": "germany",
+          "commodity": "textiles",
+          "value": 60224267036
+        },
+        {
+          "exporter": "germany",
+          "commodity": "wood-paper",
+          "value": 38689893271
+        },
+        {
+          "exporter": "germany",
+          "commodity": "metals",
+          "value": 171198502704
+        },
+        {
+          "exporter": "germany",
+          "commodity": "machinery",
+          "value": 473911442267
+        },
+        {
+          "exporter": "germany",
+          "commodity": "transport",
+          "value": 345679494074
+        },
+        {
+          "exporter": "germany",
+          "commodity": "other",
+          "value": 156321533516
+        },
+        {
+          "exporter": "japan",
+          "commodity": "food",
+          "value": 8597751833
+        },
+        {
+          "exporter": "japan",
+          "commodity": "energy",
+          "value": 13512727693
+        },
+        {
+          "exporter": "japan",
+          "commodity": "chemicals",
+          "value": 60976783773
+        },
+        {
+          "exporter": "japan",
+          "commodity": "plastics",
+          "value": 33823060360
+        },
+        {
+          "exporter": "japan",
+          "commodity": "textiles",
+          "value": 7483668053
+        },
+        {
+          "exporter": "japan",
+          "commodity": "wood-paper",
+          "value": 3574443326
+        },
+        {
+          "exporter": "japan",
+          "commodity": "metals",
+          "value": 87223253802
+        },
+        {
+          "exporter": "japan",
+          "commodity": "machinery",
+          "value": 231599020776
+        },
+        {
+          "exporter": "japan",
+          "commodity": "transport",
+          "value": 169815957252
+        },
+        {
+          "exporter": "japan",
+          "commodity": "other",
+          "value": 101339725272
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "food",
+          "value": 125109257572
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "energy",
+          "value": 132724317040
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "chemicals",
+          "value": 91350296797
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "plastics",
+          "value": 31528673383
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "textiles",
+          "value": 26190859827
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "wood-paper",
+          "value": 11212896977
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "metals",
+          "value": 41934289080
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "machinery",
+          "value": 160933695008
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "transport",
+          "value": 37717317787
+        },
+        {
+          "exporter": "netherlands",
+          "commodity": "other",
+          "value": 58738496087
+        },
+        {
+          "exporter": "italy",
+          "commodity": "food",
+          "value": 69471721160
+        },
+        {
+          "exporter": "italy",
+          "commodity": "energy",
+          "value": 25068036017
+        },
+        {
+          "exporter": "italy",
+          "commodity": "chemicals",
+          "value": 86550745539
+        },
+        {
+          "exporter": "italy",
+          "commodity": "plastics",
+          "value": 30941039185
+        },
+        {
+          "exporter": "italy",
+          "commodity": "textiles",
+          "value": 73573557278
+        },
+        {
+          "exporter": "italy",
+          "commodity": "wood-paper",
+          "value": 12563573350
+        },
+        {
+          "exporter": "italy",
+          "commodity": "metals",
+          "value": 94269637787
+        },
+        {
+          "exporter": "italy",
+          "commodity": "machinery",
+          "value": 161265892250
+        },
+        {
+          "exporter": "italy",
+          "commodity": "transport",
+          "value": 71344299554
+        },
+        {
+          "exporter": "italy",
+          "commodity": "other",
+          "value": 51771316311
+        },
+        {
+          "exporter": "france",
+          "commodity": "food",
+          "value": 89461796171
+        },
+        {
+          "exporter": "france",
+          "commodity": "energy",
+          "value": 35479562741
+        },
+        {
+          "exporter": "france",
+          "commodity": "chemicals",
+          "value": 111200146570
+        },
+        {
+          "exporter": "france",
+          "commodity": "plastics",
+          "value": 30835302582
+        },
+        {
+          "exporter": "france",
+          "commodity": "textiles",
+          "value": 43310363940
+        },
+        {
+          "exporter": "france",
+          "commodity": "wood-paper",
+          "value": 13150322115
+        },
+        {
+          "exporter": "france",
+          "commodity": "metals",
+          "value": 67616606996
+        },
+        {
+          "exporter": "france",
+          "commodity": "machinery",
+          "value": 125018558719
+        },
+        {
+          "exporter": "france",
+          "commodity": "transport",
+          "value": 111081138395
+        },
+        {
+          "exporter": "france",
+          "commodity": "other",
+          "value": 33294923732
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "food",
+          "value": 11044912870
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "energy",
+          "value": 56108276334
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "chemicals",
+          "value": 64986556339
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "plastics",
+          "value": 42116336473
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "textiles",
+          "value": 11635196232
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "wood-paper",
+          "value": 3422453254
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "metals",
+          "value": 61693441106
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "machinery",
+          "value": 244058340398
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "transport",
+          "value": 115469139413
+        },
+        {
+          "exporter": "south-korea",
+          "commodity": "other",
+          "value": 21269578196
+        }
+      ],
+      "commodityImporter": [
+        {
+          "commodity": "food",
+          "importer": "united-states",
+          "value": 32224276404
+        },
+        {
+          "commodity": "food",
+          "importer": "china",
+          "value": 40477097448
+        },
+        {
+          "commodity": "food",
+          "importer": "germany",
+          "value": 55697893102
+        },
+        {
+          "commodity": "food",
+          "importer": "france",
+          "value": 29443499711
+        },
+        {
+          "commodity": "food",
+          "importer": "united-kingdom",
+          "value": 31833533816
+        },
+        {
+          "commodity": "food",
+          "importer": "japan",
+          "value": 28869105971
+        },
+        {
+          "commodity": "food",
+          "importer": "india",
+          "value": 2591177575
+        },
+        {
+          "commodity": "food",
+          "importer": "hong-kong",
+          "value": 15987442141
+        },
+        {
+          "commodity": "food",
+          "importer": "rest-of-world",
+          "value": 446483242496
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-states",
+          "value": 16902734766
+        },
+        {
+          "commodity": "energy",
+          "importer": "china",
+          "value": 29811722370
+        },
+        {
+          "commodity": "energy",
+          "importer": "germany",
+          "value": 54643849250
+        },
+        {
+          "commodity": "energy",
+          "importer": "france",
+          "value": 23799925254
+        },
+        {
+          "commodity": "energy",
+          "importer": "united-kingdom",
+          "value": 23969837058
+        },
+        {
+          "commodity": "energy",
+          "importer": "japan",
+          "value": 22566744417
+        },
+        {
+          "commodity": "energy",
+          "importer": "india",
+          "value": 13844298916
+        },
+        {
+          "commodity": "energy",
+          "importer": "hong-kong",
+          "value": 12392845958
+        },
+        {
+          "commodity": "energy",
+          "importer": "rest-of-world",
+          "value": 507527373115
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-states",
+          "value": 99348903546
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "china",
+          "value": 82108123471
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "germany",
+          "value": 60931933733
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "france",
+          "value": 39164582229
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "united-kingdom",
+          "value": 35978604305
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "japan",
+          "value": 38474406804
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "india",
+          "value": 31114745618
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "hong-kong",
+          "value": 8098487009
+        },
+        {
+          "commodity": "chemicals",
+          "importer": "rest-of-world",
+          "value": 702678490234
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-states",
+          "value": 44545684748
+        },
+        {
+          "commodity": "plastics",
+          "importer": "china",
+          "value": 33678970293
+        },
+        {
+          "commodity": "plastics",
+          "importer": "germany",
+          "value": 24948250726
+        },
+        {
+          "commodity": "plastics",
+          "importer": "france",
+          "value": 17911454970
+        },
+        {
+          "commodity": "plastics",
+          "importer": "united-kingdom",
+          "value": 14788254612
+        },
+        {
+          "commodity": "plastics",
+          "importer": "japan",
+          "value": 11111561689
+        },
+        {
+          "commodity": "plastics",
+          "importer": "india",
+          "value": 13891443708
+        },
+        {
+          "commodity": "plastics",
+          "importer": "hong-kong",
+          "value": 3993437949
+        },
+        {
+          "commodity": "plastics",
+          "importer": "rest-of-world",
+          "value": 347825590460
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-states",
+          "value": 82774516426
+        },
+        {
+          "commodity": "textiles",
+          "importer": "china",
+          "value": 16948052716
+        },
+        {
+          "commodity": "textiles",
+          "importer": "germany",
+          "value": 27308966222
+        },
+        {
+          "commodity": "textiles",
+          "importer": "france",
+          "value": 25151641312
+        },
+        {
+          "commodity": "textiles",
+          "importer": "united-kingdom",
+          "value": 19425120989
+        },
+        {
+          "commodity": "textiles",
+          "importer": "japan",
+          "value": 26790187237
+        },
+        {
+          "commodity": "textiles",
+          "importer": "india",
+          "value": 9333884666
+        },
+        {
+          "commodity": "textiles",
+          "importer": "hong-kong",
+          "value": 11320881426
+        },
+        {
+          "commodity": "textiles",
+          "importer": "rest-of-world",
+          "value": 439124802543
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-states",
+          "value": 12983703120
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "china",
+          "value": 7476431698
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "germany",
+          "value": 7981006716
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "france",
+          "value": 8830654356
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "united-kingdom",
+          "value": 8065827617
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "japan",
+          "value": 4985222742
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "india",
+          "value": 3085356505
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "hong-kong",
+          "value": 2169989004
+        },
+        {
+          "commodity": "wood-paper",
+          "importer": "rest-of-world",
+          "value": 115080645716
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-states",
+          "value": 80964470973
+        },
+        {
+          "commodity": "metals",
+          "importer": "china",
+          "value": 41660927453
+        },
+        {
+          "commodity": "metals",
+          "importer": "germany",
+          "value": 51200778379
+        },
+        {
+          "commodity": "metals",
+          "importer": "france",
+          "value": 36890605045
+        },
+        {
+          "commodity": "metals",
+          "importer": "united-kingdom",
+          "value": 40320211923
+        },
+        {
+          "commodity": "metals",
+          "importer": "japan",
+          "value": 24972777514
+        },
+        {
+          "commodity": "metals",
+          "importer": "india",
+          "value": 33159386861
+        },
+        {
+          "commodity": "metals",
+          "importer": "hong-kong",
+          "value": 47600144528
+        },
+        {
+          "commodity": "metals",
+          "importer": "rest-of-world",
+          "value": 707316851382
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-states",
+          "value": 394621285072
+        },
+        {
+          "commodity": "machinery",
+          "importer": "china",
+          "value": 205987030733
+        },
+        {
+          "commodity": "machinery",
+          "importer": "germany",
+          "value": 143437921514
+        },
+        {
+          "commodity": "machinery",
+          "importer": "france",
+          "value": 82802410388
+        },
+        {
+          "commodity": "machinery",
+          "importer": "united-kingdom",
+          "value": 86473090758
+        },
+        {
+          "commodity": "machinery",
+          "importer": "japan",
+          "value": 91174952333
+        },
+        {
+          "commodity": "machinery",
+          "importer": "india",
+          "value": 88515734535
+        },
+        {
+          "commodity": "machinery",
+          "importer": "hong-kong",
+          "value": 232771016476
+        },
+        {
+          "commodity": "machinery",
+          "importer": "rest-of-world",
+          "value": 1911707527987
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-states",
+          "value": 180399956604
+        },
+        {
+          "commodity": "transport",
+          "importer": "china",
+          "value": 61218796403
+        },
+        {
+          "commodity": "transport",
+          "importer": "germany",
+          "value": 68747688622
+        },
+        {
+          "commodity": "transport",
+          "importer": "france",
+          "value": 57201583403
+        },
+        {
+          "commodity": "transport",
+          "importer": "united-kingdom",
+          "value": 66506641920
+        },
+        {
+          "commodity": "transport",
+          "importer": "japan",
+          "value": 22769013484
+        },
+        {
+          "commodity": "transport",
+          "importer": "india",
+          "value": 14905381036
+        },
+        {
+          "commodity": "transport",
+          "importer": "hong-kong",
+          "value": 16276735081
+        },
+        {
+          "commodity": "transport",
+          "importer": "rest-of-world",
+          "value": 890518589169
+        },
+        {
+          "commodity": "other",
+          "importer": "united-states",
+          "value": 149801603211
+        },
+        {
+          "commodity": "other",
+          "importer": "china",
+          "value": 54142320460
+        },
+        {
+          "commodity": "other",
+          "importer": "germany",
+          "value": 47088482306
+        },
+        {
+          "commodity": "other",
+          "importer": "france",
+          "value": 35599939230
+        },
+        {
+          "commodity": "other",
+          "importer": "united-kingdom",
+          "value": 42054537911
+        },
+        {
+          "commodity": "other",
+          "importer": "japan",
+          "value": 34237796483
+        },
+        {
+          "commodity": "other",
+          "importer": "india",
+          "value": 15619954350
+        },
+        {
+          "commodity": "other",
+          "importer": "hong-kong",
+          "value": 30131428257
+        },
+        {
+          "commodity": "other",
+          "importer": "rest-of-world",
+          "value": 610982981046
+        }
+      ]
+    }
+  ]
+}

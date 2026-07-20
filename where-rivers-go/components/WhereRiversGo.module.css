@@ -3,7 +3,7 @@
 .hero, .modeBar, .workspace, .storyStrip, .sourceNote { width: min(1320px, 100%); margin-inline: auto; }
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 48px; align-items: flex-end; }
 .kicker, .eyebrow { margin: 0 0 10px; color: #3c716f; font-size: .74rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
-.hero h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(4.5rem, 9vw, 8.8rem); font-weight: 500; letter-spacing: -.055em; line-height: .82; }
+.hero h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.4rem, 5.8vw, 5.6rem); font-weight: 500; letter-spacing: -.05em; line-height: .88; }
 .deck { max-width: 790px; margin: 24px 0 0; color: #48585a; font-family: Georgia, "Times New Roman", serif; font-size: 1.22rem; line-height: 1.55; }
 .heroFact { display: grid; gap: 8px; border-left: 3px solid #e05b45; padding: 4px 0 4px 20px; color: #536164; font-size: .92rem; line-height: 1.55; }
 .heroFact strong { color: #1b2b2d; font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; }
@@ -74,4 +74,4 @@
 .sourceNote div { display: flex; gap: 14px; }
 .sourceNote a { color: #315f60; font-weight: 800; }
 @media (max-width: 980px) { .hero, .workspace { grid-template-columns: 1fr; } .heroFact { max-width: 620px; } .detailCard { display: grid; grid-template-columns: 180px minmax(0,1fr); gap: 0 22px; } .destinationFlag { grid-row: span 5; align-self: flex-start; } .detailCard > .eyebrow { margin-top: 0; } .facts { margin-bottom: 8px; } }
-@media (max-width: 680px) { .shell { padding: 28px 14px 40px; } .hero { gap: 28px; } .hero h1 { font-size: clamp(3.5rem, 21vw, 5.2rem); line-height: .88; } .deck { font-size: 1.05rem; } .modeBar { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 28px; } .modeBar button { padding-inline: 9px; } .mapHeader { align-items: flex-start; padding: 16px 14px 12px; } .mapHeader h2 { font-size: 1.25rem; } .hoverCard { left: 10px; bottom: 10px; } .annotation { display: none; } .legend { padding-inline: 12px; } .detailCard { display: block; padding: 14px; } .detailCard > .eyebrow { margin-top: 22px; } .storyStrip { grid-template-columns: 1fr; } .sourceNote div { flex-wrap: wrap; } }
+@media (max-width: 680px) { .shell { padding: 28px 14px 40px; } .hero { gap: 28px; } .hero h1 { font-size: clamp(2.9rem, 13vw, 4rem); line-height: .9; } .deck { font-size: 1.05rem; } .modeBar { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 28px; } .modeBar button { padding-inline: 9px; } .mapHeader { align-items: flex-start; padding: 16px 14px 12px; } .mapHeader h2 { font-size: 1.25rem; } .hoverCard { left: 10px; bottom: 10px; } .annotation { display: none; } .legend { padding-inline: 12px; } .detailCard { display: block; padding: 14px; } .detailCard > .eyebrow { margin-top: 22px; } .storyStrip { grid-template-columns: 1fr; } .sourceNote div { flex-wrap: wrap; } }

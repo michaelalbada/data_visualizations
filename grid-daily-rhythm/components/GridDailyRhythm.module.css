@@ -45,7 +45,7 @@
   max-width: 840px;
   color: #16202c;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3rem, 7.4vw, 7rem);
+  font-size: clamp(3rem, 5.3vw, 5.2rem);
   font-weight: 500;
   line-height: 0.9;
   overflow-wrap: break-word;
@@ -75,6 +75,7 @@
   color: #1f2b37;
   font-weight: 800;
 }
+.sourceBox a { color: inherit; font-weight: 800; text-underline-offset: 3px; }
 
 .controls {
   display: flex;
@@ -558,7 +559,7 @@
   }
 
   .title {
-    font-size: clamp(2.55rem, 13vw, 3.65rem);
+    font-size: clamp(2.5rem, 11vw, 3.5rem);
     line-height: 0.94;
   }
 

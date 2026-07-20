@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import {
   GRID_REGIONS,
   POWER_SOURCES,
+  SLOT_MINUTES,
   buildGridTimeline,
   formatClockTime,
   getDailyEnergy,
@@ -31,8 +32,8 @@ const GRID_NODES: Record<SourceKey | "load", { x: number; y: number; label: stri
   nuclear: { x: 315, y: 92, label: "Nuclear" },
   hydro: { x: 84, y: 410, label: "Hydro" },
   imports: { x: 392, y: 178, label: "Imports" },
-  battery: { x: 326, y: 406, label: "Storage" },
-  gas: { x: 438, y: 322, label: "Gas fleet" },
+  battery: { x: 326, y: 406, label: "Coal fleet" },
+  gas: { x: 438, y: 322, label: "Gas + other" },
   load: { x: 244, y: 270, label: "Load center" }
 };
 
@@ -70,10 +71,10 @@ const ANNOTATIONS: Record<string, ChartAnnotation[]> = {
       dy: -118
     },
     {
-      source: "battery",
+      source: "gas",
       clockMinute: 20 * 60,
       title: "Evening handoff",
-      note: "Storage helps cover the ramp.",
+      note: "Thermal output helps cover the ramp.",
       dx: -214,
       dy: -96
     }
@@ -178,10 +179,10 @@ const ANNOTATIONS: Record<string, ChartAnnotation[]> = {
       dy: -118
     },
     {
-      source: "battery",
+      source: "gas",
       clockMinute: 20 * 60,
       title: "Western handoff",
-      note: "Storage bridges sunset and peak.",
+      note: "Thermal output bridges sunset and peak.",
       dx: -210,
       dy: -96
     }
@@ -199,7 +200,7 @@ export function GridDailyRhythm() {
     () => Math.ceil(Math.max(...timeline.map((point) => point.demand)) * 1.15 / 10) * 10,
     [timeline]
   );
-  const focusPoint = timeline[Math.min(Math.round(focusMinute / 30), timeline.length - 1)];
+  const focusPoint = timeline[Math.min(Math.round(focusMinute / SLOT_MINUTES), timeline.length - 1)];
   const sourceRows = POWER_SOURCES
     .map((source) => ({
       ...source,
@@ -217,20 +218,21 @@ export function GridDailyRhythm() {
     <main className={styles.shell}>
       <section className={styles.hero}>
         <div>
-          <p className={styles.kicker}>Modeled electric grid</p>
+          <p className={styles.kicker}>Observed electric grid · EIA-930</p>
           <h1 className={styles.title}>The Grid&apos;s Daily Rhythm</h1>
           <p className={styles.deck}>
             Electricity is not one flow. It is a choreography of sun, wind,
-            thermal plants, reservoirs, batteries, imports, and demand. Scrub
+            nuclear, hydro, coal, gas, imports, and demand. Scrub
             across the day to watch the system change shape.
           </p>
         </div>
 
         <div className={styles.sourceBox}>
-          <span className={styles.sourceLabel}>Data scaffold</span>
+          <span className={styles.sourceLabel}>Published observations</span>
           <span>
-            Modeled hourly profiles inspired by public grid data. Replace with
-            EIA or balancing-authority data before publishing as exact history.
+            Hourly balancing-authority demand, interchange, and generation by
+            fuel, as reported on Form EIA-930. {" "}
+            <a href="https://www.eia.gov/electricity/gridmonitor/">Source: U.S. EIA Hourly Electric Grid Monitor</a>
           </span>
         </div>
       </section>
@@ -270,7 +272,7 @@ export function GridDailyRhythm() {
               const rect = event.currentTarget.getBoundingClientRect();
               const viewBoxX = (event.clientX - rect.left) / rect.width * SVG_WIDTH;
               const nextMinute = clamp(
-                Math.round((viewBoxX - CHART.left) / INNER_WIDTH * 1440 / 30) * 30,
+                Math.round((viewBoxX - CHART.left) / INNER_WIDTH * 1440 / SLOT_MINUTES) * SLOT_MINUTES,
                 0,
                 1440
               );
@@ -387,7 +389,7 @@ export function GridDailyRhythm() {
               max={24 * 60}
               min="0"
               onChange={(event) => setFocusMinute(Number(event.currentTarget.value))}
-              step="30"
+              step={SLOT_MINUTES}
               type="range"
               value={focusMinute}
             />
@@ -505,10 +507,10 @@ function GridMap({ point }: { point: GridPoint }) {
         <span>{formatClockTime(point.clockMinute)}</span>
       </div>
       <svg className={styles.gridMap} viewBox="0 0 520 500" role="img">
-        <title>{`Modeled grid flow at ${formatClockTime(point.clockMinute)}`}</title>
+        <title>{`Observed grid flow at ${formatClockTime(point.clockMinute)}`}</title>
         <desc>
           Source nodes send animated flows toward a central load node. Stroke
-          width reflects current modeled generation.
+          width reflects the reported generation for the selected hour.
         </desc>
         <rect className={styles.mapBackground} x="12" y="12" width="496" height="476" rx="8" />
         {POWER_SOURCES.map((source) => {

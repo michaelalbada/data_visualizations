@@ -1,36 +1,35 @@
-# Data notes
+# Motion Scatterplots — data notes
 
-## Current status
+All plotted positions and bubble sizes are published observations. The browser does not interpolate missing years.
 
-The prototype values are hand-curated, modeled approximations. They are useful for interaction design, narrative testing, scale decisions, and performance work. They are not a publishable statistical dataset.
+## Global energy transition
 
-The six labeled anchor years in each study are the authored scaffold. Annual frames between those anchors are generated with linear interpolation to make motion and trails easier to follow. These intermediate values must not be represented as annual observations.
+Annual 2000–2023 observations join Our World in Data's **CO₂ emissions and GDP per capita** chart to its population series by ISO country code and year. GDP per person is PPP-adjusted and expressed in constant 2021 international dollars. CO₂ is territorial fossil-fuel and industry emissions per person. Population controls bubble area.
 
-## Production source plan
+Sources:
 
-### Global energy transition
+- <https://ourworldindata.org/grapher/co2-emissions-and-gdp-per-capita>
+- <https://ourworldindata.org/grapher/population>
 
-- GDP per person and population: World Bank World Development Indicators or Gapminder
-- Territorial CO2 per person and energy mix: Our World in Data energy dataset, with its upstream source metadata retained
-- Join key: ISO 3166-1 alpha-3 country code plus year
+## Housing affordability
 
-### Housing affordability
+The 2021–2024 frames use ACS 1-year metropolitan estimates from four detailed tables:
 
-- Rent burden and household income: US Census ACS 1-year estimates
-- Home values/prices: Zillow Research or FHFA, depending whether the story uses listing values or repeat-sale indexes
-- Population/households: ACS
-- Join key: stable CBSA code plus year; document boundary changes
+- B25071: median gross rent as a percentage of household income
+- B25077: median value of owner-occupied housing units
+- B19013: median household income
+- B11001: household count
 
-### Technology company lifecycles
+The purchase barrier is B25077 divided by B19013. Bubble area uses B11001. The ACS did not publish 2020 1-year estimates. These are survey estimates and have margins of error; the visualization currently shows point estimates.
 
-- Revenue, operating income, and employee count: company annual reports / SEC company facts
-- Market capitalization: a versioned market-price source joined to diluted shares outstanding
-- Join key: CIK plus fiscal year; preserve fiscal calendars and restatements
+Source: <https://www.census.gov/programs-surveys/acs/data/summary-file.html>
 
-## Required methodology before publication
+## Technology company lifecycles
 
-1. Pin every source version and retrieval date.
-2. Preserve missing values rather than interpolating silently.
-3. Define currency year and inflation treatment.
-4. Record geography and corporate-entity changes.
-5. Add per-measure source links and downloadable tidy data.
+The series uses facts reported in annual Form 10-K filings through the SEC Company Facts API. X is annual revenue, Y is operating income divided by revenue, and bubble area uses total assets. Facts are matched by fiscal-year end. Comparative facts from later filings are allowed to incorporate company restatements; missing facts remain missing.
+
+Source: <https://www.sec.gov/search-filings/edgar-application-programming-interfaces>
+
+## Rebuild
+
+Run `node motion-atlas/scripts/build-motion-data.mjs`. SEC asks automated clients to identify themselves, so the script uses the repository's `git config user.email` as its contact.

@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "The Grid's Daily Rhythm",
-  description: "A modeled electricity grid visualization for a personal website."
+  description: "An observed EIA-930 electricity grid visualization."
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import {
   ACTIVITY_CATEGORIES,
   COHORTS,
+  SLOT_MINUTES,
   START_MINUTE,
   buildTimeline,
   formatClockTime,
@@ -242,7 +243,7 @@ export function OneDayManyAmericas() {
     () => comparedDailyHours ? buildComparisonRows(dailyHours, comparedDailyHours) : [],
     [comparedDailyHours, dailyHours]
   );
-  const focusPoint = timeline[Math.min(Math.round(focusMinute / 30), timeline.length - 1)];
+  const focusPoint = timeline[Math.min(Math.round(focusMinute / SLOT_MINUTES), timeline.length - 1)];
   const topActivities = ACTIVITY_CATEGORIES
     .map((category) => ({
       ...category,
@@ -264,21 +265,21 @@ export function OneDayManyAmericas() {
     <main className={styles.shell}>
       <section className={styles.hero}>
         <div>
-          <p className={styles.kicker}>American Time Use Survey concept</p>
+          <p className={styles.kicker}>American Time Use Survey · observed</p>
           <h1 className={styles.title}>One Day, Many Americas</h1>
           <p className={styles.deck}>
             A day starts at 4 AM and flows through sleep, work, school, care,
-            meals, travel, leisure, and media. Choose a population slice to see
-            how the same 24 hours take on a different shape.
+            meals, home life, civic activity, leisure, and television. Compare
+            two published snapshots of what Americans were doing each hour.
           </p>
         </div>
 
         <div className={styles.sourceBox}>
-          <span className={styles.sourceLabel}>Data scaffold</span>
+          <span className={styles.sourceLabel}>Published observations</span>
           <span>
-            Rounded ATUS-style daily totals with modeled half-hour rhythms.
-            Replace the targets with a BLS microdata extract before publishing
-            as exact estimates.
+            BLS Table A-3 hourly estimates for people age 15+, using 2024 and
+            the comparable 2015–19 average. Related travel is included in each
+            major activity by BLS. <a href={selectedCohort.sourceHref}>Source: BLS American Time Use Survey</a>
           </span>
         </div>
       </section>
@@ -333,7 +334,7 @@ export function OneDayManyAmericas() {
               const rect = event.currentTarget.getBoundingClientRect();
               const viewBoxX = (event.clientX - rect.left) / rect.width * SVG_WIDTH;
               const nextMinute = clamp(
-                Math.round((viewBoxX - CHART.left) / INNER_WIDTH * 1440 / 30) * 30,
+                Math.round((viewBoxX - CHART.left) / INNER_WIDTH * 1440 / SLOT_MINUTES) * SLOT_MINUTES,
                 0,
                 1440
               );
@@ -342,8 +343,8 @@ export function OneDayManyAmericas() {
           >
             <title>{`Stacked time-use river for ${selectedCohort.label}`}</title>
             <desc>
-              Each colored band shows the modeled share of the selected group
-              engaged in an activity across a 24 hour day.
+              Each colored band shows the published share of people engaged in
+              an activity at each hour across a 24 hour day.
             </desc>
 
             <rect

@@ -4,9 +4,8 @@ A self-contained Next/React visualization prototype for American time use.
 
 The current interaction includes:
 
-- Cohort switching across six population slices.
-- Dashed comparison outlines for a second cohort.
-- Cohort-specific annotations inside the SVG.
+- Switching between the 2024 annual snapshot and 2015–19 average.
+- Dashed comparison outlines for the other published period.
 - Hover-driven time readout and activity shares.
 
 The component lives in:
@@ -53,10 +52,9 @@ Adjust the import path if your site does not use `@/`.
 
 ## Data
 
-This version uses rounded ATUS-style daily totals and modeled half-hour rhythms.
-It is meant to settle the visual design before doing a real microdata extract.
-See `DATA_NOTES.md`.
+This version directly transcribes the BLS ATUS Table A-3 hourly estimates. See
+`DATA_NOTES.md` for category mappings.
 
-Official source for the eventual extract:
+Official source:
 
-- https://www.bls.gov/tus/data.htm
+- https://www.bls.gov/tus/tables.htm

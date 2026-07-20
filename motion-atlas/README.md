@@ -1,6 +1,6 @@
 # Motion Atlas
 
-Three Rosling-inspired animated bubble-chart prototypes:
+Three Rosling-inspired animated bubble charts backed by published annual observations:
 
 - Global energy transition
 - Housing affordability
@@ -13,4 +13,4 @@ npm install
 npm run dev
 ```
 
-The current values are modeled interaction scaffolds. See `DATA_NOTES.md` before treating any number as publication-ready.
+The bundled snapshot is generated from OWID, Census ACS, and SEC records. See `DATA_NOTES.md` for definitions and rebuild instructions.

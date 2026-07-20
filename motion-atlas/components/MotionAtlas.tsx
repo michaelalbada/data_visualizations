@@ -77,7 +77,7 @@ export function MotionAtlas() {
       <header className={styles.hero}>
         <div>
           <p className={styles.kicker}>Motion atlas · three systems over time</p>
-          <h1>Watch the dots<br />change their minds.</h1>
+          <h1>Motion Scatterplots.</h1>
         </div>
         <p className={styles.intro}>
           A set of animated field studies inspired by Hans Rosling. Every dot is a persistent
@@ -100,20 +100,19 @@ export function MotionAtlas() {
         ))}
       </nav>
 
-      <section className={styles.studyHeader}>
-        <div>
-          <p className={styles.eyebrow}>{story.eyebrow}</p>
-          <h2>{story.title}</h2>
-          <p>{story.description}</p>
-        </div>
-        <aside>
-          <span>Question in motion</span>
-          <strong>{story.question}</strong>
-        </aside>
-      </section>
-
       <section className={styles.workspace}>
         <div className={styles.chartCard}>
+          <div className={styles.studyHeader}>
+            <div>
+              <p className={styles.eyebrow}>{story.eyebrow}</p>
+              <h2>{story.title}</h2>
+              <p>{story.description}</p>
+            </div>
+            <aside>
+              <span>Question in motion</span>
+              <strong>{story.question}</strong>
+            </aside>
+          </div>
           <div className={styles.chartTopline}>
             <div className={styles.legend} aria-label="Color legend">
               {Object.entries(story.groups).map(([group, color]) => (
@@ -279,12 +278,17 @@ export function MotionAtlas() {
       </section>
 
       <footer className={styles.dataNote}>
-        <strong>Prototype data note</strong>
-        <p>
-          Values are a hand-curated, modeled scaffold designed to test storytelling and interaction—not a publication-ready statistical series.
-          Annual frames are linearly interpolated between the labeled anchor years.
-          The production pass should join versioned sources, preserve missingness, document transformations, and add source links per measure.
-        </p>
+        <strong>Sources &amp; method</strong>
+        <div>
+          <p>
+            {story.method} Sources:
+          </p>
+          <p className={styles.sourceLinks}>
+            {story.sources.map((source) => (
+              <a href={source.href} key={source.href}>{source.label}</a>
+            ))}
+          </p>
+        </div>
       </footer>
     </main>
   );

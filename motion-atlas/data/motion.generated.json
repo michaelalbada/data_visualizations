@@ -1,0 +1,5485 @@
+{
+  "generatedAt": "2026-07-20T22:06:35.892Z",
+  "energy": [
+    {
+      "label": "2000",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 45099.074,
+          "y": 18.288157,
+          "size": 19.132472
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 14005.348,
+          "y": 1.9548683,
+          "size": 174.018278
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 48399.305,
+          "y": 18.344023,
+          "size": 30.8918
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 4066.0364,
+          "y": 2.8700879,
+          "size": 1269.581174
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 45922.48,
+          "y": 6.849684,
+          "size": 59.483716
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 49875.875,
+          "y": 10.990293,
+          "size": 81.797255
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3099.503,
+          "y": 0.9330219,
+          "size": 1057.922731
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 6056.382,
+          "y": 1.3007095,
+          "size": 216.077789
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 39005.914,
+          "y": 9.920687,
+          "size": 127.027794
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3756.6362,
+          "y": 0.3389006,
+          "size": 30.642893
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20470.494,
+          "y": 3.968903,
+          "size": 98.625553
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 4889.0034,
+          "y": 0.7661745,
+          "size": 126.38249
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 77587.21,
+          "y": 9.381491,
+          "size": 4.490864
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 55962.266,
+          "y": 19.139835,
+          "size": 16.177733
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 11183.825,
+          "y": 8.022367,
+          "size": 47.159715
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 26404.158,
+          "y": 9.407999,
+          "size": 46.76666
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 43115.562,
+          "y": 9.635275,
+          "size": 59.057333
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 55038.62,
+          "y": 21.39786,
+          "size": 281.484126
+        }
+      ]
+    },
+    {
+      "label": "2001",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 45428.2,
+          "y": 18.469387,
+          "size": 19.365438
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 14016.132,
+          "y": 1.9634905,
+          "size": 176.301201
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 48774.168,
+          "y": 17.90825,
+          "size": 31.213578
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 4372.157,
+          "y": 2.912365,
+          "size": 1278.725061
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 46454.87,
+          "y": 6.8707247,
+          "size": 59.905131
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 50606.71,
+          "y": 11.1706505,
+          "size": 81.933882
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3188.8103,
+          "y": 0.92884284,
+          "size": 1077.898579
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 6190.5195,
+          "y": 1.4457434,
+          "size": 219.097905
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 39062.28,
+          "y": 9.790459,
+          "size": 127.260144
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3778.2585,
+          "y": 0.29170913,
+          "size": 31.61917
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20078.219,
+          "y": 4.0708127,
+          "size": 100.099101
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 5039.549,
+          "y": 0.7717245,
+          "size": 129.862594
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 78791.305,
+          "y": 9.641643,
+          "size": 4.51365
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 53309.113,
+          "y": 19.034441,
+          "size": 17.041405
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 11387.492,
+          "y": 7.8122125,
+          "size": 47.566805
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 27440.656,
+          "y": 9.685312,
+          "size": 47.043467
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 43976.84,
+          "y": 9.748509,
+          "size": 59.288095
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 55017.305,
+          "y": 20.766743,
+          "size": 284.279634
+        }
+      ]
+    },
+    {
+      "label": "2002",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 46688.395,
+          "y": 18.495451,
+          "size": 19.595356
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 14265.905,
+          "y": 1.948225,
+          "size": 178.503485
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 49695.008,
+          "y": 17.892685,
+          "size": 31.535579
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 4744.3984,
+          "y": 3.184619,
+          "size": 1286.866835
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 46610.78,
+          "y": 6.746978,
+          "size": 60.327247
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 50406.38,
+          "y": 10.952268,
+          "size": 82.068328
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3250.6956,
+          "y": 0.94091654,
+          "size": 1097.60038
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 6381.9497,
+          "y": 1.387741,
+          "size": 222.088499
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 38987.91,
+          "y": 10.004505,
+          "size": 127.484599
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3681.2568,
+          "y": 0.23963098,
+          "size": 32.629809
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 19744.793,
+          "y": 4.040439,
+          "size": 101.548627
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 5654.897,
+          "y": 0.6735968,
+          "size": 133.471995
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 79447.09,
+          "y": 9.380972,
+          "size": 4.538016
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 50371.977,
+          "y": 19.369787,
+          "size": 17.910909
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 11697.565,
+          "y": 7.4241047,
+          "size": 48.019414
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 29395.277,
+          "y": 10.064984,
+          "size": 47.299118
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 44539.465,
+          "y": 9.40991,
+          "size": 59.540764
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 55436.117,
+          "y": 20.718021,
+          "size": 287.084335
+        }
+      ]
+    },
+    {
+      "label": "2003",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 47581.23,
+          "y": 18.708109,
+          "size": 19.819449
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 14259.366,
+          "y": 1.9080932,
+          "size": 180.622688
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 50139.785,
+          "y": 18.255484,
+          "size": 31.836483
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 5192.006,
+          "y": 3.7351773,
+          "size": 1294.517323
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 46730.977,
+          "y": 6.799168,
+          "size": 60.741119
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 50111.574,
+          "y": 10.893722,
+          "size": 82.111619
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3445.926,
+          "y": 0.95665747,
+          "size": 1116.803
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 6599.092,
+          "y": 1.5064515,
+          "size": 225.048005
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 39501.81,
+          "y": 10.055865,
+          "size": 127.671254
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3674.086,
+          "y": 0.1995752,
+          "size": 33.652233
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 19701.463,
+          "y": 4.2335887,
+          "size": 102.978517
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 5905.315,
+          "y": 0.7290653,
+          "size": 137.202646
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 79728.78,
+          "y": 9.621514,
+          "size": 4.564666
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 52234.65,
+          "y": 18.695478,
+          "size": 18.786771
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 11923.121,
+          "y": 8.338209,
+          "size": 48.500351
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 30142.46,
+          "y": 10.211963,
+          "size": 47.514158
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 45759.402,
+          "y": 9.555585,
+          "size": 59.820385
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 56498.207,
+          "y": 20.718428,
+          "size": 289.908091
+        }
+      ]
+    },
+    {
+      "label": "2004",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 49061.277,
+          "y": 19.055769,
+          "size": 20.046679
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 14911.261,
+          "y": 1.9785615,
+          "size": 182.675144
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 51210.68,
+          "y": 17.93459,
+          "size": 32.13268
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 5684.169,
+          "y": 4.001966,
+          "size": 1302.100316
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 47720.44,
+          "y": 6.7686367,
+          "size": 61.175244
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 50704.92,
+          "y": 10.677804,
+          "size": 82.092706
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3656.1262,
+          "y": 0.9987847,
+          "size": 1135.991509
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 6843.5464,
+          "y": 1.5035917,
+          "size": 227.926649
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 40351.777,
+          "y": 10.007541,
+          "size": 127.815769
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3743.5679,
+          "y": 0.2195501,
+          "size": 34.713453
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20127.225,
+          "y": 4.201275,
+          "size": 104.394131
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 6275.299,
+          "y": 0.67321587,
+          "size": 141.057045
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 82440.95,
+          "y": 9.638396,
+          "size": 4.591739
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 54196.55,
+          "y": 20.727654,
+          "size": 19.669486
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 12341.21,
+          "y": 9.171435,
+          "size": 48.99142
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 31579.527,
+          "y": 10.302297,
+          "size": 47.697076
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 46558.13,
+          "y": 9.530167,
+          "size": 60.169964
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 58131.633,
+          "y": 20.873743,
+          "size": 292.786248
+        }
+      ]
+    },
+    {
+      "label": "2005",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 49997.066,
+          "y": 18.974682,
+          "size": 20.29449
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 15221.014,
+          "y": 1.9728968,
+          "size": 184.688101
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 52356.56,
+          "y": 17.583017,
+          "size": 32.440172
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 6298.323,
+          "y": 4.4899764,
+          "size": 1310.027135
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 48257.465,
+          "y": 6.756068,
+          "size": 61.625031
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 51182.96,
+          "y": 10.57788,
+          "size": 82.046733
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 3881.966,
+          "y": 1.0352627,
+          "size": 1154.676321
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 7140.8545,
+          "y": 1.5045645,
+          "size": 230.871648
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 41075.824,
+          "y": 10.056906,
+          "size": 127.913331
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3844.7356,
+          "y": 0.23617308,
+          "size": 35.796485
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20277.256,
+          "y": 4.379822,
+          "size": 105.811504
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 6496.932,
+          "y": 0.7010616,
+          "size": 145.017256
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 84080,
+          "y": 9.361427,
+          "size": 4.62312
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 54931.793,
+          "y": 20.050425,
+          "size": 20.559886
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 12861.563,
+          "y": 8.409871,
+          "size": 49.490041
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 32886.047,
+          "y": 10.421549,
+          "size": 47.851646
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 47529.938,
+          "y": 9.412128,
+          "size": 60.596107
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 59604.754,
+          "y": 20.71883,
+          "size": 295.716666
+        }
+      ]
+    },
+    {
+      "label": "2006",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 50693.727,
+          "y": 19.007372,
+          "size": 20.590566
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 15657.4795,
+          "y": 1.976238,
+          "size": 186.653099
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 53195.78,
+          "y": 17.287231,
+          "size": 32.759174
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 7057.1,
+          "y": 4.921031,
+          "size": 1318.05403
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 49223.246,
+          "y": 6.5539103,
+          "size": 62.049831
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 53222.04,
+          "y": 10.849607,
+          "size": 81.701971
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 4129.7783,
+          "y": 1.1026897,
+          "size": 1172.878888
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 7434.488,
+          "y": 1.4805014,
+          "size": 233.95165
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 41613.15,
+          "y": 9.87084,
+          "size": 127.997247
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 3970.7334,
+          "y": 0.25923568,
+          "size": 36.90401
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20965.826,
+          "y": 4.4243016,
+          "size": 107.253666
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 6702.9453,
+          "y": 0.60436517,
+          "size": 149.077335
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 85458.55,
+          "y": 9.410819,
+          "size": 4.660487
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 54373.74,
+          "y": 20.736025,
+          "size": 21.459141
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13444.233,
+          "y": 8.935195,
+          "size": 49.998271
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 34429.62,
+          "y": 10.487704,
+          "size": 48.006518
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 48215.047,
+          "y": 9.301154,
+          "size": 61.051093
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 60676.566,
+          "y": 20.236742,
+          "size": 298.730208
+        }
+      ]
+    },
+    {
+      "label": "2007",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 51663.242,
+          "y": 19.036264,
+          "size": 20.954545
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 16440.584,
+          "y": 2.0714328,
+          "size": 188.552311
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 53761.863,
+          "y": 17.827667,
+          "size": 33.092171
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 8013.716,
+          "y": 5.2606664,
+          "size": 1325.813576
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50157.785,
+          "y": 6.3502436,
+          "size": 62.432438
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 54832.96,
+          "y": 10.407971,
+          "size": 81.298546
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 4379.696,
+          "y": 1.1703311,
+          "size": 1190.676028
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 7802.464,
+          "y": 1.634917,
+          "size": 237.062338
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 42182.176,
+          "y": 10.141284,
+          "size": 128.087683
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4116.451,
+          "y": 0.25591367,
+          "size": 38.036354
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21102.27,
+          "y": 4.353924,
+          "size": 108.774356
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 6949.4263,
+          "y": 0.53612256,
+          "size": 153.267254
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 87043.5,
+          "y": 9.684611,
+          "size": 4.709017
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 53318.418,
+          "y": 18.92472,
+          "size": 22.368313
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14016.244,
+          "y": 9.203381,
+          "size": 50.528575
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 36257.34,
+          "y": 10.828748,
+          "size": 48.178122
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 49243.25,
+          "y": 9.09334,
+          "size": 61.535859
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 61306.598,
+          "y": 20.28047,
+          "size": 301.844223
+        }
+      ]
+    },
+    {
+      "label": "2008",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 52473.383,
+          "y": 18.91755,
+          "size": 21.370595
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 17113.367,
+          "y": 2.167588,
+          "size": 190.367297
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 53711.68,
+          "y": 17.166817,
+          "size": 33.449088
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 8743.745,
+          "y": 5.6172485,
+          "size": 1333.821011
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50068.297,
+          "y": 6.2088747,
+          "size": 62.780187
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 55425.11,
+          "y": 10.561389,
+          "size": 81.11078
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 4450.39,
+          "y": 1.2338176,
+          "size": 1207.93096
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 8165.0615,
+          "y": 1.5214325,
+          "size": 240.157902
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 41645.57,
+          "y": 9.587431,
+          "size": 128.155992
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4002.8835,
+          "y": 0.25757587,
+          "size": 39.206349
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20992.56,
+          "y": 4.2852488,
+          "size": 110.374286
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7215.7695,
+          "y": 0.5488045,
+          "size": 157.595014
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 86379.664,
+          "y": 9.373132,
+          "size": 4.768097
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 54407.707,
+          "y": 20.15771,
+          "size": 23.287884
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14297.688,
+          "y": 9.677716,
+          "size": 51.114595
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 37064.152,
+          "y": 11.015084,
+          "size": 48.356485
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 48833.07,
+          "y": 8.785364,
+          "size": 62.027303
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 60798.434,
+          "y": 19.409172,
+          "size": 304.970325
+        }
+      ]
+    },
+    {
+      "label": "2009",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 52407.91,
+          "y": 18.683231,
+          "size": 21.783014
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 16939.441,
+          "y": 2.0292346,
+          "size": 192.079958
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 51552.42,
+          "y": 15.997278,
+          "size": 33.82637
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 9518.433,
+          "y": 5.8706574,
+          "size": 1342.522717
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 48404.965,
+          "y": 5.8853593,
+          "size": 63.10646
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 52484.855,
+          "y": 9.760688,
+          "size": 80.935276
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 4731.362,
+          "y": 1.3164382,
+          "size": 1225.524764
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 8435.456,
+          "y": 1.6389457,
+          "size": 243.220024
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 39279.5,
+          "y": 9.050865,
+          "size": 128.192471
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4012.1943,
+          "y": 0.30153793,
+          "size": 40.408887
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 19385.543,
+          "y": 4.109744,
+          "size": 111.99972
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7581.406,
+          "y": 0.47535717,
+          "size": 162.049466
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 83642.07,
+          "y": 8.925522,
+          "size": 4.828625
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 51760.766,
+          "y": 20.81001,
+          "size": 24.217656
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13910.702,
+          "y": 9.173127,
+          "size": 51.728518
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 37176.195,
+          "y": 11.078403,
+          "size": 48.54669
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 46241.805,
+          "y": 7.9049363,
+          "size": 62.506222
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 58714.973,
+          "y": 17.81067,
+          "size": 308.023452
+        }
+      ]
+    },
+    {
+      "label": "2010",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 52739.27,
+          "y": 18.292547,
+          "size": 22.141583
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18062.158,
+          "y": 2.2729204,
+          "size": 193.701931
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 52558.44,
+          "y": 16.20929,
+          "size": 34.1969
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 10476.3125,
+          "y": 6.370445,
+          "size": 1351.561505
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 49130.42,
+          "y": 5.945996,
+          "size": 63.417366
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 54738.707,
+          "y": 10.22758,
+          "size": 80.830916
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 5059.2827,
+          "y": 1.3498628,
+          "size": 1243.481565
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 8848.225,
+          "y": 1.8082032,
+          "size": 246.305327
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 40881.797,
+          "y": 9.447968,
+          "size": 128.185273
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4211.5244,
+          "y": 0.28502947,
+          "size": 41.59857
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20058.385,
+          "y": 4.0168395,
+          "size": 113.623898
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7962.6396,
+          "y": 0.67239475,
+          "size": 166.642888
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 83256.79,
+          "y": 9.338823,
+          "size": 4.88916
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 54911.547,
+          "y": 22.086767,
+          "size": 25.157134
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14164.996,
+          "y": 8.928475,
+          "size": 52.344047
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 39574.05,
+          "y": 12.18674,
+          "size": 48.769329
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 46917.89,
+          "y": 8.124634,
+          "size": 63.006482
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 59789.414,
+          "y": 18.22542,
+          "size": 311.062785
+        }
+      ]
+    },
+    {
+      "label": "2011",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 53257.047,
+          "y": 17.96612,
+          "size": 22.479779
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18627.81,
+          "y": 2.3653224,
+          "size": 195.284736
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 53681.13,
+          "y": 16.287806,
+          "size": 34.555449
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 11405.018,
+          "y": 6.998823,
+          "size": 1360.250658
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50085.684,
+          "y": 5.572035,
+          "size": 63.733776
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 57858.42,
+          "y": 9.95007,
+          "size": 80.857877
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 5249.5493,
+          "y": 1.3999841,
+          "size": 1261.224956
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 9274.97,
+          "y": 2.0060833,
+          "size": 249.470029
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 40967.344,
+          "y": 9.845555,
+          "size": 128.09643
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4307.106,
+          "y": 0.28573626,
+          "size": 42.758467
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20457.6,
+          "y": 4.1937428,
+          "size": 115.243503
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8153.5317,
+          "y": 0.73588383,
+          "size": 171.379602
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 83092.44,
+          "y": 9.040032,
+          "size": 4.952969
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 58645.445,
+          "y": 20.694223,
+          "size": 26.105636
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14434.261,
+          "y": 8.949351,
+          "size": 52.995212
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 40719.227,
+          "y": 12.690266,
+          "size": 49.12764
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 46949.02,
+          "y": 7.3959785,
+          "size": 63.509285
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 60245.484,
+          "y": 17.634142,
+          "size": 314.105075
+        }
+      ]
+    },
+    {
+      "label": "2012",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 54403.883,
+          "y": 17.72246,
+          "size": 22.852648
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18832.219,
+          "y": 2.5268083,
+          "size": 196.876113
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 54034.805,
+          "y": 16.086172,
+          "size": 34.922513
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 12217.8545,
+          "y": 7.131918,
+          "size": 1369.520866
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 49935.625,
+          "y": 5.59021,
+          "size": 64.058465
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 58017.586,
+          "y": 10.060916,
+          "size": 80.916391
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 5460.4375,
+          "y": 1.5070187,
+          "size": 1278.674501
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 9708.612,
+          "y": 2.041047,
+          "size": 252.698525
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 41596.92,
+          "y": 10.178457,
+          "size": 127.928283
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4387.938,
+          "y": 0.25623727,
+          "size": 43.888306
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20898.936,
+          "y": 4.292929,
+          "size": 116.818208
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8265.905,
+          "y": 0.62499523,
+          "size": 176.200627
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 84237.15,
+          "y": 8.819053,
+          "size": 5.018453
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 59471.7,
+          "y": 22.38202,
+          "size": 27.062447
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14563.763,
+          "y": 8.579701,
+          "size": 53.78257
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 41537.67,
+          "y": 12.660249,
+          "size": 49.59958
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 47328.21,
+          "y": 7.62153,
+          "size": 63.960488
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 61134.53,
+          "y": 16.812391,
+          "size": 317.115349
+        }
+      ]
+    },
+    {
+      "label": "2013",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 54895.004,
+          "y": 17.121933,
+          "size": 23.236271
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 19241.506,
+          "y": 2.6782215,
+          "size": 198.47829
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 54712.18,
+          "y": 16.11036,
+          "size": 35.293421
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 13080.829,
+          "y": 7.2097993,
+          "size": 1379.00804
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50066.53,
+          "y": 5.591334,
+          "size": 64.387736
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 58089.17,
+          "y": 10.263195,
+          "size": 81.041581
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 5732.2417,
+          "y": 1.5398146,
+          "size": 1295.829507
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 10121.814,
+          "y": 1.9285924,
+          "size": 255.852464
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 42492.242,
+          "y": 10.271204,
+          "size": 127.723642
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4443.371,
+          "y": 0.27036667,
+          "size": 44.986794
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20805.348,
+          "y": 4.1862144,
+          "size": 118.343572
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8581.208,
+          "y": 0.648446,
+          "size": 181.04944
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 84070.46,
+          "y": 8.7673025,
+          "size": 5.080126
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 57998.465,
+          "y": 20.807848,
+          "size": 28.026825
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14681.097,
+          "y": 8.343052,
+          "size": 54.678789
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 42709.977,
+          "y": 12.673574,
+          "size": 50.071168
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 47820.28,
+          "y": 7.4175463,
+          "size": 64.389386
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 61958.723,
+          "y": 17.09857,
+          "size": 320.110752
+        }
+      ]
+    },
+    {
+      "label": "2014",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 55489.07,
+          "y": 16.639103,
+          "size": 23.595599
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 19183.172,
+          "y": 2.7814436,
+          "size": 200.085126
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 55723.484,
+          "y": 15.853792,
+          "size": 35.634265
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 13968.581,
+          "y": 7.187588,
+          "size": 1387.95197
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50326.566,
+          "y": 5.067184,
+          "size": 64.692495
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 59108.7,
+          "y": 9.739761,
+          "size": 81.376078
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 6079.8438,
+          "y": 1.6368889,
+          "size": 1312.277184
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 10504.387,
+          "y": 1.9238018,
+          "size": 258.877395
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 42674.7,
+          "y": 9.885529,
+          "size": 127.486601
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4558.552,
+          "y": 0.2869488,
+          "size": 46.051441
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21069.766,
+          "y": 4.040969,
+          "size": 119.784265
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8884.774,
+          "y": 0.6668816,
+          "size": 185.896917
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 84830.26,
+          "y": 8.754434,
+          "size": 5.137397
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 58872.266,
+          "y": 20.177479,
+          "size": 28.998127
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14643.339,
+          "y": 8.663356,
+          "size": 55.59484
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 43806.926,
+          "y": 12.453072,
+          "size": 50.539055
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 48964.285,
+          "y": 6.764833,
+          "size": 64.865914
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 63018.805,
+          "y": 17.118917,
+          "size": 323.115377
+        }
+      ]
+    },
+    {
+      "label": "2015",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 55879.996,
+          "y": 16.72746,
+          "size": 23.947997
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18357.068,
+          "y": 2.6189272,
+          "size": 201.675534
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 55660.867,
+          "y": 15.655382,
+          "size": 35.962236
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 14856.78,
+          "y": 7.0609546,
+          "size": 1396.134171
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50682.895,
+          "y": 5.116293,
+          "size": 64.916337
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 59573.707,
+          "y": 9.756902,
+          "size": 82.077546
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 6488.146,
+          "y": 1.6805544,
+          "size": 1328.024494
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 10893.662,
+          "y": 2.1052775,
+          "size": 261.799249
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 43386.71,
+          "y": 9.58534,
+          "size": 127.275868
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4679.622,
+          "y": 0.3230555,
+          "size": 47.088528
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21408.928,
+          "y": 3.9598958,
+          "size": 121.07231
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8892.058,
+          "y": 0.57965857,
+          "size": 190.671883
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 85550.3,
+          "y": 8.7716675,
+          "size": 5.189777
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 58498.54,
+          "y": 20.835636,
+          "size": 29.974944
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14541.675,
+          "y": 8.064963,
+          "size": 56.723536
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 44849.105,
+          "y": 12.438773,
+          "size": 50.983909
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 49652.72,
+          "y": 6.461413,
+          "size": 65.382107
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 64359.473,
+          "y": 16.461393,
+          "size": 326.126496
+        }
+      ]
+    },
+    {
+      "label": "2016",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 56529.953,
+          "y": 16.837934,
+          "size": 24.329963
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 17620.928,
+          "y": 2.4197884,
+          "size": 203.218108
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 55606.156,
+          "y": 15.231254,
+          "size": 36.353345
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 15772.765,
+          "y": 6.9428844,
+          "size": 1404.052628
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 50984.074,
+          "y": 5.1545954,
+          "size": 65.086853
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 60407.973,
+          "y": 9.642186,
+          "size": 82.760102
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 6940.626,
+          "y": 1.7504745,
+          "size": 1343.944296
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 11319.663,
+          "y": 2.0707185,
+          "size": 264.627429
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 43736.13,
+          "y": 9.436406,
+          "size": 127.15995
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4770.3105,
+          "y": 0.33836323,
+          "size": 48.139683
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21578.264,
+          "y": 3.9167483,
+          "size": 122.251344
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8534.692,
+          "y": 0.5955475,
+          "size": 195.443698
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 85787.62,
+          "y": 8.538622,
+          "size": 5.235974
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 57308.45,
+          "y": 20.873049,
+          "size": 30.717804
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14501.281,
+          "y": 7.9820704,
+          "size": 57.25955
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 46088.242,
+          "y": 12.435496,
+          "size": 51.297836
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 50346.86,
+          "y": 6.061766,
+          "size": 65.893359
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 65017.656,
+          "y": 15.934658,
+          "size": 329.179423
+        }
+      ]
+    },
+    {
+      "label": "2017",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 56881.855,
+          "y": 16.71615,
+          "size": 24.731044
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 17724.48,
+          "y": 2.429146,
+          "size": 204.70344
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 56612.33,
+          "y": 15.394822,
+          "size": 36.808498
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 16757.973,
+          "y": 7.080384,
+          "size": 1412.35473
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 51895.566,
+          "y": 5.182955,
+          "size": 65.284775
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 61866.49,
+          "y": 9.441122,
+          "size": 83.10401
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 7326.607,
+          "y": 1.7840685,
+          "size": 1359.657398
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 11772.574,
+          "y": 2.1355352,
+          "size": 267.346654
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 44505.277,
+          "y": 9.321171,
+          "size": 127.064686
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 4846.8623,
+          "y": 0.3288992,
+          "size": 49.197757
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21777.523,
+          "y": 3.7634232,
+          "size": 123.400052
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8396.784,
+          "y": 0.5619865,
+          "size": 200.25458
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 87194.11,
+          "y": 8.375709,
+          "size": 5.276807
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 57942.547,
+          "y": 20.936852,
+          "size": 30.7824
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14573.598,
+          "y": 7.6344075,
+          "size": 57.635158
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 47536.79,
+          "y": 12.712852,
+          "size": 51.486268
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 51586.676,
+          "y": 5.8378453,
+          "size": 66.354473
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 66155.555,
+          "y": 15.639208,
+          "size": 332.204657
+        }
+      ]
+    },
+    {
+      "label": "2018",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 57647.844,
+          "y": 16.512163,
+          "size": 25.1197
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 17917.75,
+          "y": 2.3123908,
+          "size": 206.107265
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 57337.492,
+          "y": 15.420052,
+          "size": 37.294996
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 17806.791,
+          "y": 7.2915606,
+          "size": 1419.008954
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 52560.953,
+          "y": 4.93138,
+          "size": 65.519537
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 62381.348,
+          "y": 9.101415,
+          "size": 83.368507
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 7714.34,
+          "y": 1.8879061,
+          "size": 1374.659067
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 12262.231,
+          "y": 2.249951,
+          "size": 269.951847
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 44848.49,
+          "y": 8.971074,
+          "size": 126.913432
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5017.668,
+          "y": 0.3386544,
+          "size": 50.207109
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21997.773,
+          "y": 3.760188,
+          "size": 124.573713
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8362.623,
+          "y": 0.52106166,
+          "size": 204.938752
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 87338.47,
+          "y": 8.37238,
+          "size": 5.311751
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 61359.465,
+          "y": 21.47873,
+          "size": 30.365119
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14553.562,
+          "y": 7.7417293,
+          "size": 58.613001
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 48834.445,
+          "y": 12.977481,
+          "size": 51.640894
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 52131.695,
+          "y": 5.6886244,
+          "size": 66.752473
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 67719.766,
+          "y": 16.000992,
+          "size": 335.056492
+        }
+      ]
+    },
+    {
+      "label": "2019",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 58048.617,
+          "y": 16.28262,
+          "size": 25.482714
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18018.621,
+          "y": 2.2979572,
+          "size": 207.455459
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 57583.848,
+          "y": 15.324565,
+          "size": 37.782934
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 18820.514,
+          "y": 7.5260706,
+          "size": 1423.520357
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 53448.555,
+          "y": 4.812466,
+          "size": 65.72946
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 62849.375,
+          "y": 8.480803,
+          "size": 83.559184
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 7930.0913,
+          "y": 1.8798543,
+          "size": 1389.030307
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 12757.785,
+          "y": 2.440643,
+          "size": 272.489381
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 44730.91,
+          "y": 8.698248,
+          "size": 126.699421
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5171.7124,
+          "y": 0.35464606,
+          "size": 51.202829
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21704.186,
+          "y": 3.7231612,
+          "size": 125.762978
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 8361.787,
+          "y": 0.61034876,
+          "size": 209.485637
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 87725.73,
+          "y": 8.015733,
+          "size": 5.347733
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 62647.73,
+          "y": 23.244812,
+          "size": 30.472809
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 14352.67,
+          "y": 7.899718,
+          "size": 59.58788
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 49790.867,
+          "y": 12.480763,
+          "size": 51.767844
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 52515.684,
+          "y": 5.4350777,
+          "size": 67.110958
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 69112.6,
+          "y": 15.500492,
+          "size": 337.790069
+        }
+      ]
+    },
+    {
+      "label": "2020",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 57260.465,
+          "y": 15.481285,
+          "size": 25.743787
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 17327.516,
+          "y": 2.1470218,
+          "size": 208.660845
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 54092.88,
+          "y": 13.732821,
+          "size": 38.171903
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 19215.154,
+          "y": 7.64075,
+          "size": 1426.106093
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 49311.332,
+          "y": 4.271517,
+          "size": 65.905273
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 60203.29,
+          "y": 7.738692,
+          "size": 83.628711
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 7399.531,
+          "y": 1.7272933,
+          "size": 1402.617694
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 12388.545,
+          "y": 2.268087,
+          "size": 274.814861
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 42992.48,
+          "y": 8.212569,
+          "size": 126.304533
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5057.4014,
+          "y": 0.3828149,
+          "size": 52.217327
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 19728.482,
+          "y": 3.382808,
+          "size": 126.799053
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7664.211,
+          "y": 0.58365196,
+          "size": 213.996185
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 86096.055,
+          "y": 7.672967,
+          "size": 5.379275
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 57420.734,
+          "y": 21.088715,
+          "size": 30.991206
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13250.566,
+          "y": 7.1875925,
+          "size": 60.562374
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 49374.094,
+          "y": 11.524331,
+          "size": 51.858481
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 47158.984,
+          "y": 4.84416,
+          "size": 67.35186
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 67342.07,
+          "y": 13.8168955,
+          "size": 339.436156
+        }
+      ]
+    },
+    {
+      "label": "2021",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 58327.414,
+          "y": 14.96633,
+          "size": 25.956417
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18075.705,
+          "y": 2.3696554,
+          "size": 209.550291
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 56995.117,
+          "y": 13.977163,
+          "size": 38.454058
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 20843.297,
+          "y": 7.910899,
+          "size": 1426.437269
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 52517.336,
+          "y": 4.649748,
+          "size": 66.083547
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 62530.766,
+          "y": 8.100614,
+          "size": 83.69708
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 8050.0186,
+          "y": 1.8920738,
+          "size": 1414.203896
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 12757.074,
+          "y": 2.2870014,
+          "size": 276.758056
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 44355.348,
+          "y": 8.422242,
+          "size": 125.679342
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5338.8525,
+          "y": 0.38688725,
+          "size": 53.219167
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 20782.588,
+          "y": 3.500541,
+          "size": 127.648151
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7588.479,
+          "y": 0.6762326,
+          "size": 218.529286
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 88984.14,
+          "y": 7.591971,
+          "size": 5.408082
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 62690.496,
+          "y": 22.196955,
+          "size": 31.328374
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13681.955,
+          "y": 7.14546,
+          "size": 61.502602
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 51718.25,
+          "y": 11.882237,
+          "size": 51.848401
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 51004.426,
+          "y": 5.059431,
+          "size": 67.668788
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 71307.4,
+          "y": 14.758024,
+          "size": 340.161438
+        }
+      ]
+    },
+    {
+      "label": "2022",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 60029.133,
+          "y": 14.65893,
+          "size": 26.200987
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 18554.047,
+          "y": 2.2826612,
+          "size": 210.306411
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 58321.062,
+          "y": 14.107159,
+          "size": 38.821259
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 21499.383,
+          "y": 8.217776,
+          "size": 1425.179562
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 53673.812,
+          "y": 4.4555726,
+          "size": 66.277412
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 63676.086,
+          "y": 7.942359,
+          "size": 84.086227
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 8594.392,
+          "y": 1.9861692,
+          "size": 1425.423209
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 13334.266,
+          "y": 2.7185707,
+          "size": 278.830527
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 44972.344,
+          "y": 8.237319,
+          "size": 124.997585
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5491.694,
+          "y": 0.37868083,
+          "size": 54.252458
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21391.857,
+          "y": 3.5284045,
+          "size": 128.613116
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7752.262,
+          "y": 0.58902264,
+          "size": 223.150906
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 91051.086,
+          "y": 7.4829626,
+          "size": 5.456796
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 67178.59,
+          "y": 20.729954,
+          "size": 32.175351
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13767.497,
+          "y": 6.8738866,
+          "size": 62.378417
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 53228.605,
+          "y": 11.719733,
+          "size": 51.782515
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 53139.152,
+          "y": 4.563232,
+          "size": 68.179315
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 72679.26,
+          "y": 14.802047,
+          "size": 341.534041
+        }
+      ]
+    },
+    {
+      "label": "2023",
+      "points": [
+        {
+          "id": "aus",
+          "label": "Australia",
+          "group": "Asia",
+          "x": 60684.96,
+          "y": 14.529289,
+          "size": 26.451126
+        },
+        {
+          "id": "bra",
+          "label": "Brazil",
+          "group": "Americas",
+          "x": 19079.812,
+          "y": 2.2922719,
+          "size": 211.140731
+        },
+        {
+          "id": "can",
+          "label": "Canada",
+          "group": "Americas",
+          "x": 57517.44,
+          "y": 13.880179,
+          "size": 39.299098
+        },
+        {
+          "id": "chn",
+          "label": "China",
+          "group": "Asia",
+          "x": 22687.076,
+          "y": 8.556261,
+          "size": 1422.58493
+        },
+        {
+          "id": "fra",
+          "label": "France",
+          "group": "Europe",
+          "x": 54296.723,
+          "y": 4.067842,
+          "size": 66.438828
+        },
+        {
+          "id": "deu",
+          "label": "Germany",
+          "group": "Europe",
+          "x": 63039.37,
+          "y": 7.022808,
+          "size": 84.548233
+        },
+        {
+          "id": "ind",
+          "label": "India",
+          "group": "Asia",
+          "x": 9301.756,
+          "y": 2.1297693,
+          "size": 1438.069597
+        },
+        {
+          "id": "idn",
+          "label": "Indonesia",
+          "group": "Asia",
+          "x": 13889.975,
+          "y": 2.7111824,
+          "size": 281.190068
+        },
+        {
+          "id": "jpn",
+          "label": "Japan",
+          "group": "Asia",
+          "x": 45858.66,
+          "y": 7.9352145,
+          "size": 124.370947
+        },
+        {
+          "id": "ken",
+          "label": "Kenya",
+          "group": "Africa",
+          "x": 5691.825,
+          "y": 0.38283524,
+          "size": 55.339007
+        },
+        {
+          "id": "mex",
+          "label": "Mexico",
+          "group": "Americas",
+          "x": 21917.248,
+          "y": 3.5321004,
+          "size": 129.739761
+        },
+        {
+          "id": "nga",
+          "label": "Nigeria",
+          "group": "Africa",
+          "x": 7843.8345,
+          "y": 0.5677305,
+          "size": 227.882949
+        },
+        {
+          "id": "nor",
+          "label": "Norway",
+          "group": "Europe",
+          "x": 90085.44,
+          "y": 7.042548,
+          "size": 5.519167
+        },
+        {
+          "id": "sau",
+          "label": "Saudi Arabia",
+          "group": "Asia",
+          "x": 64481.844,
+          "y": 20.36544,
+          "size": 33.264289
+        },
+        {
+          "id": "zaf",
+          "label": "South Africa",
+          "group": "Africa",
+          "x": 13695.376,
+          "y": 6.9069405,
+          "size": 63.212386
+        },
+        {
+          "id": "kor",
+          "label": "South Korea",
+          "group": "Asia",
+          "x": 54029.344,
+          "y": 11.385368,
+          "size": 51.748744
+        },
+        {
+          "id": "gbr",
+          "label": "United Kingdom",
+          "group": "Europe",
+          "x": 52592.684,
+          "y": 4.481841,
+          "size": 68.682965
+        },
+        {
+          "id": "usa",
+          "label": "United States",
+          "group": "Americas",
+          "x": 74158.72,
+          "y": 14.31945,
+          "size": 343.47733
+        }
+      ]
+    }
+  ],
+  "housing": [
+    {
+      "label": "2021",
+      "points": [
+        {
+          "id": "atl",
+          "label": "Atlanta",
+          "group": "South",
+          "x": 31.6,
+          "y": 3.8665274716776863,
+          "size": 2.277482
+        },
+        {
+          "id": "aus",
+          "label": "Austin",
+          "group": "South",
+          "x": 29.2,
+          "y": 4.589159828961054,
+          "size": 0.955207
+        },
+        {
+          "id": "bos",
+          "label": "Boston",
+          "group": "Northeast",
+          "x": 30.6,
+          "y": 5.573200992555831,
+          "size": 1.92016
+        },
+        {
+          "id": "chi",
+          "label": "Chicago",
+          "group": "Midwest",
+          "x": 29.7,
+          "y": 3.596192718061561,
+          "size": 3.670416
+        },
+        {
+          "id": "dal",
+          "label": "Dallas",
+          "group": "South",
+          "x": 31,
+          "y": 3.8815399802566635,
+          "size": 2.836892
+        },
+        {
+          "id": "den",
+          "label": "Denver",
+          "group": "West",
+          "x": 31.6,
+          "y": 5.727765774505048,
+          "size": 1.192117
+        },
+        {
+          "id": "det",
+          "label": "Detroit",
+          "group": "Midwest",
+          "x": 29.9,
+          "y": 3.2895030750673833,
+          "size": 1.759573
+        },
+        {
+          "id": "la",
+          "label": "Los Angeles",
+          "group": "West",
+          "x": 34.5,
+          "y": 9.074821521641637,
+          "size": 4.45278
+        },
+        {
+          "id": "mia",
+          "label": "Miami",
+          "group": "South",
+          "x": 37.5,
+          "y": 5.680571661390918,
+          "size": 2.306639
+        },
+        {
+          "id": "msp",
+          "label": "Minneapolis",
+          "group": "Midwest",
+          "x": 29.5,
+          "y": 3.7788935527775553,
+          "size": 1.4534
+        },
+        {
+          "id": "nyc",
+          "label": "New York",
+          "group": "Northeast",
+          "x": 31.9,
+          "y": 6.322785484960135,
+          "size": 7.3477
+        },
+        {
+          "id": "phl",
+          "label": "Philadelphia",
+          "group": "Northeast",
+          "x": 30.6,
+          "y": 3.753421575612134,
+          "size": 2.442868
+        },
+        {
+          "id": "phx",
+          "label": "Phoenix",
+          "group": "West",
+          "x": 31,
+          "y": 4.93985290039746,
+          "size": 1.863195
+        },
+        {
+          "id": "por",
+          "label": "Portland",
+          "group": "West",
+          "x": 30.9,
+          "y": 5.753904435152425,
+          "size": 1.001984
+        },
+        {
+          "id": "sd",
+          "label": "San Diego",
+          "group": "West",
+          "x": 33.9,
+          "y": 7.9360021098205555,
+          "size": 1.162896
+        },
+        {
+          "id": "sf",
+          "label": "San Francisco",
+          "group": "West",
+          "x": 30.1,
+          "y": 8.984957544933408,
+          "size": 1.719049
+        },
+        {
+          "id": "sea",
+          "label": "Seattle",
+          "group": "West",
+          "x": 29.5,
+          "y": 6.275990208511517,
+          "size": 1.584796
+        },
+        {
+          "id": "dc",
+          "label": "Washington, DC",
+          "group": "South",
+          "x": 29.3,
+          "y": 4.51089665171492,
+          "size": 2.384977
+        }
+      ]
+    },
+    {
+      "label": "2022",
+      "points": [
+        {
+          "id": "atl",
+          "label": "Atlanta",
+          "group": "South",
+          "x": 31.9,
+          "y": 4.272114614260804,
+          "size": 2.311639
+        },
+        {
+          "id": "aus",
+          "label": "Austin",
+          "group": "South",
+          "x": 29.4,
+          "y": 5.1794850112046005,
+          "size": 1.000103
+        },
+        {
+          "id": "bos",
+          "label": "Boston",
+          "group": "Northeast",
+          "x": 31.7,
+          "y": 5.926231315736488,
+          "size": 1.948354
+        },
+        {
+          "id": "chi",
+          "label": "Chicago",
+          "group": "Midwest",
+          "x": 30.2,
+          "y": 3.63388571290735,
+          "size": 3.726266
+        },
+        {
+          "id": "dal",
+          "label": "Dallas",
+          "group": "South",
+          "x": 31.8,
+          "y": 4.2198423143329755,
+          "size": 2.908436
+        },
+        {
+          "id": "den",
+          "label": "Denver",
+          "group": "West",
+          "x": 30.9,
+          "y": 6.02980550644102,
+          "size": 1.223825
+        },
+        {
+          "id": "det",
+          "label": "Detroit",
+          "group": "Midwest",
+          "x": 30.9,
+          "y": 3.4448887953413316,
+          "size": 1.762104
+        },
+        {
+          "id": "la",
+          "label": "Los Angeles",
+          "group": "West",
+          "x": 34.4,
+          "y": 9.657750475821434,
+          "size": 4.500951
+        },
+        {
+          "id": "mia",
+          "label": "Miami",
+          "group": "South",
+          "x": 38,
+          "y": 6.073280673741327,
+          "size": 2.344046
+        },
+        {
+          "id": "msp",
+          "label": "Minneapolis",
+          "group": "Midwest",
+          "x": 30.5,
+          "y": 3.939085405239706,
+          "size": 1.483453
+        },
+        {
+          "id": "nyc",
+          "label": "New York",
+          "group": "Northeast",
+          "x": 31.5,
+          "y": 6.321399707302156,
+          "size": 7.478571
+        },
+        {
+          "id": "phl",
+          "label": "Philadelphia",
+          "group": "Northeast",
+          "x": 31.1,
+          "y": 3.9537344127052054,
+          "size": 2.483863
+        },
+        {
+          "id": "phx",
+          "label": "Phoenix",
+          "group": "West",
+          "x": 32,
+          "y": 5.477534868008301,
+          "size": 1.890835
+        },
+        {
+          "id": "por",
+          "label": "Portland",
+          "group": "West",
+          "x": 31.3,
+          "y": 6.23320494446435,
+          "size": 1.011708
+        },
+        {
+          "id": "sd",
+          "label": "San Diego",
+          "group": "West",
+          "x": 34.1,
+          "y": 8.557738961669093,
+          "size": 1.172343
+        },
+        {
+          "id": "sf",
+          "label": "San Francisco",
+          "group": "West",
+          "x": 29.5,
+          "y": 8.860640962614417,
+          "size": 1.739127
+        },
+        {
+          "id": "sea",
+          "label": "Seattle",
+          "group": "West",
+          "x": 30,
+          "y": 6.716927480380511,
+          "size": 1.61158
+        },
+        {
+          "id": "dc",
+          "label": "Washington, DC",
+          "group": "South",
+          "x": 29.1,
+          "y": 4.70995980652633,
+          "size": 2.422671
+        }
+      ]
+    },
+    {
+      "label": "2023",
+      "points": [
+        {
+          "id": "atl",
+          "label": "Atlanta",
+          "group": "South",
+          "x": 33.5,
+          "y": 4.434425755736663,
+          "size": 2.341283
+        },
+        {
+          "id": "aus",
+          "label": "Austin",
+          "group": "South",
+          "x": 31.3,
+          "y": 4.945791204775246,
+          "size": 1.036074
+        },
+        {
+          "id": "bos",
+          "label": "Boston",
+          "group": "Northeast",
+          "x": 31.5,
+          "y": 5.8411700407418445,
+          "size": 1.949953
+        },
+        {
+          "id": "chi",
+          "label": "Chicago",
+          "group": "Midwest",
+          "x": 29,
+          "y": 3.6349645691447208,
+          "size": 3.671659
+        },
+        {
+          "id": "dal",
+          "label": "Dallas",
+          "group": "South",
+          "x": 32.3,
+          "y": 4.304628137232328,
+          "size": 2.959385
+        },
+        {
+          "id": "den",
+          "label": "Denver",
+          "group": "West",
+          "x": 31.5,
+          "y": 5.931783998835574,
+          "size": 1.244895
+        },
+        {
+          "id": "det",
+          "label": "Detroit",
+          "group": "Midwest",
+          "x": 31.2,
+          "y": 3.4612946785350127,
+          "size": 1.770361
+        },
+        {
+          "id": "la",
+          "label": "Los Angeles",
+          "group": "West",
+          "x": 34.1,
+          "y": 9.43018703784254,
+          "size": 4.542998
+        },
+        {
+          "id": "mia",
+          "label": "Miami",
+          "group": "South",
+          "x": 38.4,
+          "y": 6.214681858111208,
+          "size": 2.34992
+        },
+        {
+          "id": "msp",
+          "label": "Minneapolis",
+          "group": "Midwest",
+          "x": 29,
+          "y": 3.885302096696179,
+          "size": 1.501453
+        },
+        {
+          "id": "nyc",
+          "label": "New York",
+          "group": "Northeast",
+          "x": 31,
+          "y": 6.408317580340265,
+          "size": 7.490498
+        },
+        {
+          "id": "phl",
+          "label": "Philadelphia",
+          "group": "Northeast",
+          "x": 31.1,
+          "y": 4.106277412596268,
+          "size": 2.484152
+        },
+        {
+          "id": "phx",
+          "label": "Phoenix",
+          "group": "West",
+          "x": 32.6,
+          "y": 5.3372228704784135,
+          "size": 1.922068
+        },
+        {
+          "id": "por",
+          "label": "Portland",
+          "group": "West",
+          "x": 31.3,
+          "y": 5.908875427969449,
+          "size": 1.028651
+        },
+        {
+          "id": "sd",
+          "label": "San Diego",
+          "group": "West",
+          "x": 34.4,
+          "y": 8.342496672261126,
+          "size": 1.181259
+        },
+        {
+          "id": "sf",
+          "label": "San Francisco",
+          "group": "West",
+          "x": 29.6,
+          "y": 8.647646175034431,
+          "size": 1.763465
+        },
+        {
+          "id": "sea",
+          "label": "Seattle",
+          "group": "West",
+          "x": 29.7,
+          "y": 6.431048183197284,
+          "size": 1.627693
+        },
+        {
+          "id": "dc",
+          "label": "Washington, DC",
+          "group": "South",
+          "x": 29.2,
+          "y": 4.725485514822712,
+          "size": 2.409575
+        }
+      ]
+    },
+    {
+      "label": "2024",
+      "points": [
+        {
+          "id": "atl",
+          "label": "Atlanta",
+          "group": "South",
+          "x": 32.8,
+          "y": 4.354370614225071,
+          "size": 2.390346
+        },
+        {
+          "id": "aus",
+          "label": "Austin",
+          "group": "South",
+          "x": 29.9,
+          "y": 4.832977967306325,
+          "size": 1.061155
+        },
+        {
+          "id": "bos",
+          "label": "Boston",
+          "group": "Northeast",
+          "x": 30.7,
+          "y": 5.780606832166348,
+          "size": 1.97024
+        },
+        {
+          "id": "chi",
+          "label": "Chicago",
+          "group": "Midwest",
+          "x": 30.2,
+          "y": 3.7424259116448164,
+          "size": 3.690402
+        },
+        {
+          "id": "dal",
+          "label": "Dallas",
+          "group": "South",
+          "x": 31.3,
+          "y": 4.200230770060281,
+          "size": 3.012855
+        },
+        {
+          "id": "den",
+          "label": "Denver",
+          "group": "West",
+          "x": 30.7,
+          "y": 5.840105140403161,
+          "size": 1.265606
+        },
+        {
+          "id": "det",
+          "label": "Detroit",
+          "group": "Midwest",
+          "x": 31.5,
+          "y": 3.554834234257817,
+          "size": 1.777768
+        },
+        {
+          "id": "la",
+          "label": "Los Angeles",
+          "group": "West",
+          "x": 33.9,
+          "y": 9.42378507338831,
+          "size": 4.583939
+        },
+        {
+          "id": "mia",
+          "label": "Miami",
+          "group": "South",
+          "x": 38.6,
+          "y": 6.333023255813954,
+          "size": 2.382154
+        },
+        {
+          "id": "msp",
+          "label": "Minneapolis",
+          "group": "Midwest",
+          "x": 29,
+          "y": 3.9243117392369906,
+          "size": 1.508526
+        },
+        {
+          "id": "nyc",
+          "label": "New York",
+          "group": "Northeast",
+          "x": 31.1,
+          "y": 6.497616472379121,
+          "size": 7.486828
+        },
+        {
+          "id": "phl",
+          "label": "Philadelphia",
+          "group": "Northeast",
+          "x": 31.6,
+          "y": 4.128783709411117,
+          "size": 2.505818
+        },
+        {
+          "id": "phx",
+          "label": "Phoenix",
+          "group": "West",
+          "x": 31.9,
+          "y": 5.2211731552261655,
+          "size": 1.967378
+        },
+        {
+          "id": "por",
+          "label": "Portland",
+          "group": "West",
+          "x": 30.9,
+          "y": 5.9074287330545285,
+          "size": 1.026663
+        },
+        {
+          "id": "sd",
+          "label": "San Diego",
+          "group": "West",
+          "x": 33.9,
+          "y": 8.381592933328447,
+          "size": 1.185092
+        },
+        {
+          "id": "sf",
+          "label": "San Francisco",
+          "group": "West",
+          "x": 29.1,
+          "y": 8.355335939228556,
+          "size": 1.770425
+        },
+        {
+          "id": "sea",
+          "label": "Seattle",
+          "group": "West",
+          "x": 30.1,
+          "y": 6.611026088194469,
+          "size": 1.658652
+        },
+        {
+          "id": "dc",
+          "label": "Washington, DC",
+          "group": "South",
+          "x": 29.3,
+          "y": 4.790722727416749,
+          "size": 2.41553
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "label": "2009",
+      "points": [
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 23.651,
+          "y": 35.144391357659295,
+          "size": 40.497
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 2.945853,
+          "y": 23.440171658259935,
+          "size": 7.282237
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 1.670269,
+          "y": 11.491502267000106,
+          "size": 0.679734
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 10.387,
+          "y": 24.472898815827477,
+          "size": 27.445
+        }
+      ]
+    },
+    {
+      "label": "2010",
+      "points": [
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 29.321,
+          "y": 35.40465877698578,
+          "size": 57.851
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 3.8,
+          "y": 26.133526315789474,
+          "size": 8.141148
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 2.162625,
+          "y": 13.115588694295127,
+          "size": 0.982067
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 10.982,
+          "y": 33.93735203059552,
+          "size": 30.572
+        }
+      ]
+    },
+    {
+      "label": "2011",
+      "points": [
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 37.905,
+          "y": 30.977443609022558,
+          "size": 72.574
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 4.216258,
+          "y": 26.072858918975072,
+          "size": 8.991183
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 3.204577,
+          "y": 11.735339796796893,
+          "size": 3.069196
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 14.957,
+          "y": 33.60299525305877,
+          "size": 36.422
+        }
+      ]
+    },
+    {
+      "label": "2012",
+      "points": [
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 50.175,
+          "y": 27.571499750871947,
+          "size": 93.798
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 4.403677,
+          "y": 26.800126348957924,
+          "size": 10.040229
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 3.609282,
+          "y": 1.3850954289523512,
+          "size": 3.96789
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 19.121,
+          "y": 29.71601903666126,
+          "size": 43.012
+        }
+      ]
+    },
+    {
+      "label": "2013",
+      "points": [
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 4.05524,
+          "y": 10.42411793136781,
+          "size": 10.380298
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 4.374562,
+          "y": 5.219882584816491,
+          "size": 5.412563
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 24.866,
+          "y": 29.07584653744068,
+          "size": 45.516
+        }
+      ]
+    },
+    {
+      "label": "2014",
+      "points": [
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 4.147065,
+          "y": 9.951254682528488,
+          "size": 10.785829
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 5.504656,
+          "y": 7.314680517728991,
+          "size": 7.0425
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 26.487,
+          "y": 28.50454940159323,
+          "size": 48.574
+        }
+      ]
+    },
+    {
+      "label": "2015",
+      "points": [
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 4.795511,
+          "y": 18.832091095192986,
+          "size": 11.726472
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 6.779511,
+          "y": 4.5110333178897415,
+          "size": 10.202871
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 25.281,
+          "y": 22.84719750009889,
+          "size": 50.796
+        }
+      ]
+    },
+    {
+      "label": "2016",
+      "points": [
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 91.154,
+          "y": 28.608728086534875,
+          "size": 193.468
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 90.272,
+          "y": 26.271712158808935,
+          "size": 167.497
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 135.987,
+          "y": 3.078235419562164,
+          "size": 83.402
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 27.638,
+          "y": 44.96345611115131,
+          "size": 64.961
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 59.387,
+          "y": 22.11426743226632,
+          "size": 113.327
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 5.85443,
+          "y": 25.512338519719258,
+          "size": 12.697246
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 8.830669,
+          "y": 4.300840627137084,
+          "size": 13.58661
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 4.319,
+          "y": -8.636258393146562,
+          "size": 3.321
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 23.554,
+          "y": 27.574934193767515,
+          "size": 52.359
+        },
+        {
+          "id": "pypl",
+          "label": "PayPal",
+          "group": "Commerce",
+          "x": 10.842,
+          "y": 14.628297362110313,
+          "size": 33.103
+        }
+      ]
+    },
+    {
+      "label": "2017",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 229.234,
+          "y": 26.76042820872994,
+          "size": 375.319
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 96.571,
+          "y": 30.055606755651283,
+          "size": 250.312
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 110.855,
+          "y": 23.614631726128728,
+          "size": 197.295
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 177.866,
+          "y": 2.3084794170892695,
+          "size": 131.31
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 40.653,
+          "y": 49.69620938184144,
+          "size": 84.524
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 6.91,
+          "y": 27.988422575976845,
+          "size": 9.841
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 62.761,
+          "y": 28.759898663182547,
+          "size": 123.249
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 8.437,
+          "y": 2.583856821144957,
+          "size": 17.584923
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 7.301505,
+          "y": 29.693809700876738,
+          "size": 14.535556
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 37.792,
+          "y": 34.16860711261643,
+          "size": 134.991
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 11.692713,
+          "y": 7.172663863382262,
+          "size": 19.012742
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 5.253,
+          "y": 2.417666095564439,
+          "size": 3.552
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 48.005,
+          "y": 24.941151963337152,
+          "size": 129.818
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 22.258,
+          "y": 11.59583071255279,
+          "size": 65.498
+        },
+        {
+          "id": "pypl",
+          "label": "PayPal",
+          "group": "Commerce",
+          "x": 13.094,
+          "y": 16.244081258591724,
+          "size": 40.774
+        }
+      ]
+    },
+    {
+      "label": "2018",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 265.595,
+          "y": 26.694026619477025,
+          "size": 365.725
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 110.36,
+          "y": 31.766944545125046,
+          "size": 258.848
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 136.819,
+          "y": 20.117089000796675,
+          "size": 232.792
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 232.887,
+          "y": 5.3334879147397665,
+          "size": 162.648
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 55.838,
+          "y": 44.61656936136681,
+          "size": 97.334
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 9.714,
+          "y": 33.045089561457694,
+          "size": 11.241
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 70.848,
+          "y": 32.90989159891599,
+          "size": 127.963
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 10.54,
+          "y": 4.307400379506642,
+          "size": 21.984
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 9.03,
+          "y": 31.450719822812843,
+          "size": 18.768682
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 39.383,
+          "y": 33.679506386004114,
+          "size": 137.851
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 15.794341,
+          "y": 10.163298361102878,
+          "size": 25.9744
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 6.475,
+          "y": 6.9652509652509655,
+          "size": 4.556
+        },
+        {
+          "id": "tsla",
+          "label": "Tesla",
+          "group": "Devices",
+          "x": 21.461268,
+          "y": -1.8079080881893836,
+          "size": 29.74
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 49.33,
+          "y": 24.952361646057167,
+          "size": 108.784
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 22.611,
+          "y": 2.7464508425102827,
+          "size": 32.718
+        },
+        {
+          "id": "pypl",
+          "label": "PayPal",
+          "group": "Commerce",
+          "x": 15.451,
+          "y": 14.19972817293379,
+          "size": 43.332
+        }
+      ]
+    },
+    {
+      "label": "2019",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 260.174,
+          "y": 24.57201718849693,
+          "size": 338.516
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 125.843,
+          "y": 34.13698020549415,
+          "size": 286.556
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 161.857,
+          "y": 21.14891540063142,
+          "size": 275.909
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 280.522,
+          "y": 5.183550666257905,
+          "size": 225.248
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 70.697,
+          "y": 33.92788944368219,
+          "size": 133.376
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 11.716,
+          "y": 32.46841925571868,
+          "size": 13.292
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 71.965,
+          "y": 30.619050927534218,
+          "size": 136.524
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 13.282,
+          "y": 4.028007830146063,
+          "size": 30.737
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 11.171,
+          "y": 29.254319219407392,
+          "size": 20.762
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 39.506,
+          "y": 34.26061864020655,
+          "size": 108.709
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 20.156447,
+          "y": 12.920203645017397,
+          "size": 33.975712
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 6.731,
+          "y": 9.374535730203535,
+          "size": 6.028
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 51.904,
+          "y": 27.394805795314426,
+          "size": 97.793
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 24.273,
+          "y": 31.586536480863508,
+          "size": 32.957
+        },
+        {
+          "id": "pypl",
+          "label": "PayPal",
+          "group": "Commerce",
+          "x": 17.772,
+          "y": 15.299347287868557,
+          "size": 51.333
+        }
+      ]
+    },
+    {
+      "label": "2020",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 274.515,
+          "y": 24.147314354406863,
+          "size": 323.888
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 143.015,
+          "y": 37.03038142852149,
+          "size": 301.311
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 182.527,
+          "y": 22.585151785763202,
+          "size": 319.616
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 386.064,
+          "y": 5.931399975133657,
+          "size": 321.195
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 85.965,
+          "y": 38.00500203571221,
+          "size": 159.316
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 10.918,
+          "y": 26.06704524638212,
+          "size": 17.315
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 77.867,
+          "y": 30.408260238611994,
+          "size": 153.091
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 17.098,
+          "y": 1.7370452684524504,
+          "size": 55.126
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 12.868,
+          "y": 32.92663972645322,
+          "size": 24.284
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 39.068,
+          "y": 35.5687519197297,
+          "size": 115.438
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 24.996056,
+          "y": 18.344049957321268,
+          "size": 39.280359
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 9.763,
+          "y": 14.022329202089523,
+          "size": 8.962
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 49.301,
+          "y": 27.626214478408144,
+          "size": 94.853
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 23.531,
+          "y": 26.581955717989036,
+          "size": 35.594
+        }
+      ]
+    },
+    {
+      "label": "2021",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 365.817,
+          "y": 29.782377527561593,
+          "size": 351.002
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 168.088,
+          "y": 41.5948788729713,
+          "size": 333.779
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 257.637,
+          "y": 30.55228868524319,
+          "size": 359.268
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 469.822,
+          "y": 5.295409750926947,
+          "size": 420.549
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 117.929,
+          "y": 39.64504066005817,
+          "size": 165.987
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 16.675,
+          "y": 27.178410794602698,
+          "size": 28.791
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 79.024,
+          "y": 24.62036849564689,
+          "size": 168.406
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 21.252,
+          "y": 2.140974967061924,
+          "size": 66.301
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 15.785,
+          "y": 36.75641431738993,
+          "size": 27.241
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 40.479,
+          "y": 37.58245015934188,
+          "size": 131.107
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 29.697844,
+          "y": 20.858446828665407,
+          "size": 44.584663
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 16.434,
+          "y": 22.197882438846296,
+          "size": 12.419
+        },
+        {
+          "id": "tsla",
+          "label": "Tesla",
+          "group": "Devices",
+          "x": 53.823,
+          "y": 12.119354179440016,
+          "size": 62.131
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 49.818,
+          "y": 25.759765546589584,
+          "size": 97.497
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 33.566,
+          "y": 29.16343919442293,
+          "size": 41.24
+        }
+      ]
+    },
+    {
+      "label": "2022",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 394.328,
+          "y": 30.288744395528592,
+          "size": 352.755
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 198.27,
+          "y": 42.05527815604983,
+          "size": 364.84
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 282.836,
+          "y": 26.46127084246701,
+          "size": 365.264
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 513.983,
+          "y": 2.382958191224223,
+          "size": 462.675
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 116.609,
+          "y": 24.821411726367604,
+          "size": 185.727
+        },
+        {
+          "id": "nvda",
+          "label": "Nvidia",
+          "group": "Semiconductors",
+          "x": 26.914,
+          "y": 37.307720888756776,
+          "size": 44.187
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 63.054,
+          "y": 3.7015891140926827,
+          "size": 182.103
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 26.492,
+          "y": 2.0685489959232974,
+          "size": 95.209
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 17.606,
+          "y": 34.635919572872886,
+          "size": 27.165
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 42.44,
+          "y": 25.74458058435438,
+          "size": 109.297
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 31.61555,
+          "y": 17.816647187855345,
+          "size": 48.594768
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 23.601,
+          "y": 5.355705266725986,
+          "size": 67.58
+        },
+        {
+          "id": "tsla",
+          "label": "Tesla",
+          "group": "Devices",
+          "x": 81.462,
+          "y": 16.763644398615305,
+          "size": 82.338
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 51.557,
+          "y": 27.094283996353553,
+          "size": 94.002
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 44.2,
+          "y": 35.88235294117647,
+          "size": 49.014
+        }
+      ]
+    },
+    {
+      "label": "2023",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 383.285,
+          "y": 29.821412265024723,
+          "size": 352.583
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 211.915,
+          "y": 41.7728806361041,
+          "size": 411.976
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 307.394,
+          "y": 27.421810445226647,
+          "size": 402.392
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 574.785,
+          "y": 6.41144079960333,
+          "size": 527.854
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 134.902,
+          "y": 34.655527716416366,
+          "size": 229.623
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 54.228,
+          "y": 0.1714981190528878,
+          "size": 191.572
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 31.352,
+          "y": 3.285276856340903,
+          "size": 98.849
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 19.409,
+          "y": 34.262455561852754,
+          "size": 29.779
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 49.954,
+          "y": 26.2101133042399,
+          "size": 134.384
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 33.723297,
+          "y": 20.62076848535895,
+          "size": 48.731992
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 22.68,
+          "y": 1.7680776014109347,
+          "size": 67.885
+        },
+        {
+          "id": "tsla",
+          "label": "Tesla",
+          "group": "Devices",
+          "x": 96.773,
+          "y": 9.18747997891974,
+          "size": 106.618
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 56.998,
+          "y": 26.371100740376857,
+          "size": 101.852
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 35.82,
+          "y": 21.742043551088777,
+          "size": 51.04
+        }
+      ]
+    },
+    {
+      "label": "2024",
+      "points": [
+        {
+          "id": "aapl",
+          "label": "Apple",
+          "group": "Devices",
+          "x": 391.035,
+          "y": 31.510222870075566,
+          "size": 364.98
+        },
+        {
+          "id": "msft",
+          "label": "Microsoft",
+          "group": "Software",
+          "x": 245.122,
+          "y": 44.64429957327371,
+          "size": 512.163
+        },
+        {
+          "id": "goog",
+          "label": "Alphabet",
+          "group": "Platforms",
+          "x": 350.018,
+          "y": 32.1097772114577,
+          "size": 450.256
+        },
+        {
+          "id": "amzn",
+          "label": "Amazon",
+          "group": "Commerce",
+          "x": 637.959,
+          "y": 10.75194487420038,
+          "size": 624.894
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "group": "Platforms",
+          "x": 164.501,
+          "y": 42.1760354040401,
+          "size": 276.054
+        },
+        {
+          "id": "intc",
+          "label": "Intel",
+          "group": "Semiconductors",
+          "x": 53.101,
+          "y": -21.99205288036007,
+          "size": 196.485
+        },
+        {
+          "id": "crm",
+          "label": "Salesforce",
+          "group": "Software",
+          "x": 34.857,
+          "y": 14.375878589666351,
+          "size": 99.823
+        },
+        {
+          "id": "adbe",
+          "label": "Adobe",
+          "group": "Software",
+          "x": 21.505,
+          "y": 31.346198558474775,
+          "size": 30.23
+        },
+        {
+          "id": "orcl",
+          "label": "Oracle",
+          "group": "Software",
+          "x": 52.961,
+          "y": 28.98925624516153,
+          "size": 140.976
+        },
+        {
+          "id": "nflx",
+          "label": "Netflix",
+          "group": "Platforms",
+          "x": 39.000966,
+          "y": 26.711169154117876,
+          "size": 53.630374
+        },
+        {
+          "id": "amd",
+          "label": "AMD",
+          "group": "Semiconductors",
+          "x": 25.785,
+          "y": 7.368625169672289,
+          "size": 69.226
+        },
+        {
+          "id": "tsla",
+          "label": "Tesla",
+          "group": "Devices",
+          "x": 97.69,
+          "y": 7.243320708363189,
+          "size": 122.07
+        },
+        {
+          "id": "csco",
+          "label": "Cisco",
+          "group": "Networking",
+          "x": 53.803,
+          "y": 22.640001486905934,
+          "size": 124.413
+        },
+        {
+          "id": "qcom",
+          "label": "Qualcomm",
+          "group": "Semiconductors",
+          "x": 38.962,
+          "y": 25.848262409527234,
+          "size": 55.154
+        }
+      ]
+    }
+  ]
+}

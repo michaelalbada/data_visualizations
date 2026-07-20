@@ -1,31 +1,17 @@
-# Data Notes
+# The Grid's Daily Rhythm — data notes
 
-This first version is a design scaffold, not a historical grid record.
+Every hourly value comes from Form EIA-930, downloaded from the U.S. Energy Information Administration's official January–June 2024 six-month balance file.
 
-The component generates plausible half-hour power profiles for four regional
-scenarios. Source values are modeled with deterministic curves for demand,
-solar, wind, gas, nuclear, hydro, imports, and battery discharge. Each
-half-hour is scaled so total supply equals demand.
+The seven examples are single observed days from CAISO, ERCOT, MISO, NYISO, Southern Company, Bonneville Power Administration, and Southwest Power Pool. The chart prefers EIA's adjusted values, which incorporate EIA's published validation and imputation, and falls back to the reported value when no adjusted value exists.
 
-Why this approach:
+Mappings:
 
-- It keeps the visualization static and cheap to host.
-- It lets the visual design settle before adding an API or ETL step.
-- It preserves the same front-end shape that real hourly data would use.
+- Hydro includes hydropower and pumped storage.
+- Coal is shown separately.
+- “Gas + other” combines natural gas, petroleum, other, and unknown fuel sources.
+- Imports are the positive portion of negative total interchange; export hours can therefore show generation above local demand.
+- The carbon readout is a derived proxy using disclosed generic emission factors. It is not an EIA emissions observation.
 
-Before publishing as exact data, replace the generated points in
-`data/gridData.ts` with hourly or sub-hourly generation data.
+Source: <https://www.eia.gov/electricity/gridmonitor/>
 
-Useful official source:
-
-- EIA Open Data: https://www.eia.gov/opendata/
-
-Suggested real-data replacement path:
-
-1. Pick one balancing authority, region, or state.
-2. Pull hourly demand and generation by fuel from EIA Open Data or the relevant
-   balancing-authority source.
-3. Normalize fuel names into the seven source categories used here.
-4. Export an array of `GridPoint` objects with `demand`, `netLoad`,
-   `cleanShare`, `carbonRate`, and source values in GW.
-5. Keep the component unchanged and replace only the data builder.
+Regenerate with `node grid-daily-rhythm/scripts/build-grid-data.mjs`.
