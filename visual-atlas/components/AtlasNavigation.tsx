@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import styles from "./AtlasNavigation.module.css";
 
@@ -14,11 +15,17 @@ const ITEMS = [
   { href: "/moores-law", number: "07", label: "Moore's Law" },
   { href: "/health-spending", number: "08", label: "Health Spending" },
   { href: "/world-trade", number: "09", label: "Trade River" },
-  { href: "/power-costs", number: "10", label: "Power Costs" }
+  { href: "/power-costs", number: "10", label: "Power Costs" },
+  { href: "/ulysses", number: "11", label: "Ulysses" }
 ];
 
 export function AtlasNavigation() {
   const pathname = usePathname();
+  const activeRef = useRef<HTMLAnchorElement>(null);
+
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({ block:"nearest", inline:"center" });
+  }, [pathname]);
 
   return (
     <header className={styles.bar}>
@@ -32,6 +39,7 @@ export function AtlasNavigation() {
             aria-current={pathname === item.href ? "page" : undefined}
             href={item.href}
             key={item.href}
+            ref={pathname === item.href ? activeRef : undefined}
           >
             <span>{item.number}</span>{item.label}
           </Link>

@@ -11,14 +11,15 @@ const STUDIES = [
   { href: "/moores-law", number: "07", title: "128 Years of Compounding", type: "Computing history", description: "The price-performance frontier crosses seven technologies and twenty-one orders of magnitude.", accent: "#c56a3d" },
   { href: "/health-spending", number: "08", title: "Who Pays. Where It Goes.", type: "Health spending flows", description: "America's health dollar moves from households, insurers, and public programs into care, medicines, administration, research, and capital.", accent: "#2f876f" },
   { href: "/world-trade", number: "09", title: "World Trade Is a River", type: "Merchandise flows", description: "Leading exporters pass through ten commodity families on their way to the world's largest destination markets—and everywhere beyond them.", accent: "#54a99c" },
-  { href: "/power-costs", number: "10", title: "The Price Collapse", type: "Electricity economics", description: "Utility solar and onshore wind plunge through the cost of gas, coal, and nuclear across sixteen years of U.S. power economics.", accent: "#e4a72c" }
+  { href: "/power-costs", number: "10", title: "The Price Collapse", type: "Electricity economics", description: "Utility solar and onshore wind plunge through the cost of gas, coal, and nuclear across sixteen years of U.S. power economics.", accent: "#e4a72c" },
+  { href: "/ulysses", number: "11", title: "One Day. An Entire World.", type: "Literary anatomy", description: "Joyce’s eighteen episodes spiral through a Dublin day as time, place, form, body, and measured language continually change shape.", accent: "#df735c" }
 ];
 
 export default function IndexPage() {
   return (
     <main className={styles.shell}>
       <header>
-        <p>Ten ways to see a system · collection 01</p>
+        <p>Eleven ways to see a system · collection 01</p>
         <h1>Data<br />Visualizations.</h1>
         <div>
           <span>Time</span><i /><span>Scale</span><i /><span>Flow</span>
